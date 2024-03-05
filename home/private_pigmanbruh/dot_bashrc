@@ -9,4 +9,4 @@ alias ls='ls --color=auto'
 alias grep='grep --color=auto'
 PS1='[\u@\h \W]\$ '
 
-alias schezmoi="sudo chezmoi --destination / --source /etc/chezmoi/dotfiles --working-tree /etc/chezmoi/dotfiles"
+alias schezmoi="sudo chezmoi --destination / --source '/home/pigmanbruh/Git Repos/dotfiles/' --working-tree '/home/pigmanbruh/Git Repos/dotfiles/'"
