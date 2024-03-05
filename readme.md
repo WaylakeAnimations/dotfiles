@@ -2,7 +2,7 @@
 
 While the purpose of dotfiles repo is for personal config backup, i would still treat this just like any other repo i made
 
-And while nothing stopping you from just copying my whole configuration, i would advise against doing that, at least modify and adapt it to your own use case
+And while nothing stopping you from just copying my whole configuration, i would advise against doing that, just take what you need and adapt it to your use case and preferences
 
 
 ## Usage
