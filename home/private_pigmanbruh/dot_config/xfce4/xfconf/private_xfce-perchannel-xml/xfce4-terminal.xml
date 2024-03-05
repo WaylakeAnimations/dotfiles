@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<channel name="xfce4-terminal" version="1.0">
+  <property name="font-name" type="string" value="Source Code Pro Semi-Bold 11"/>
+  <property name="shortcuts-no-mnemonics" type="bool" value="true"/>
+  <property name="shortcuts-no-menukey" type="bool" value="true"/>
+  <property name="misc-tab-close-middle-click" type="bool" value="false"/>
+  <property name="misc-hyperlinks-enabled" type="bool" value="false"/>
+  <property name="misc-show-unsafe-paste-dialog" type="bool" value="false"/>
+  <property name="misc-menubar-default" type="bool" value="false"/>
+  <property name="misc-borders-default" type="bool" value="false"/>
+  <property name="scrolling-bar" type="string" value="TERMINAL_SCROLLBAR_RIGHT"/>
+  <property name="overlay-scrolling" type="bool" value="true"/>
+  <property name="background-mode" type="string" value="TERMINAL_BACKGROUND_TRANSPARENT"/>
+</channel>
