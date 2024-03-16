@@ -1,3 +1,6 @@
+# Things i changed :
+# Changed governor and perf bias
+
 # Define CPUs governor
 # valid governors: ondemand, performance, powersave, conservative, userspace.
 governor='performance'
