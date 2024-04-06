@@ -5,6 +5,9 @@ While nothing stopping you from just copying my whole configuration, i would adv
 
 ## Usage
 
-This repo are managed with [chezmoi](https://chezmoi.io), and while it only handle home folder dotfiles by default, someone found a [workaround](https://github.com/twpayne/chezmoi/discussions/1510#discussioncomment-2627391) and i decided to use it...
+This repo are managed with [chezmoi](https://chezmoi.io), and while it only handle home folder dotfiles by default, someone found a [workaround](https://github.com/twpayne/chezmoi/discussions/1510#discussioncomment-2627391) and i decided to modify and use it...
 
-    alias schezmoi="sudo chezmoi --destination / --source '/home/pigmanbruh/Git Repos/dotfiles/' --working-tree '/home/pigmanbruh/Git Repos/dotfiles/'"
+```
+alias hezmoi="chezmoi --destination ~ --source '~/dotfiles/home' --working-tree '~/dotfiles/home'"
+alias rezmoi="chezmoi --destination / --source '~/dotfiles/root' --working-tree '~/dotfiles/root'"
+```
