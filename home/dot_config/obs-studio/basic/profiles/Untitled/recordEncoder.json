@@ -1,1 +1,1 @@
-{"tune":"zerolatency","profile":"high","preset":"ultrafast","bitrate":6000}
+{"bitrate":5000,"profile":"high","tune":"zerolatency","preset":"ultrafast"}
