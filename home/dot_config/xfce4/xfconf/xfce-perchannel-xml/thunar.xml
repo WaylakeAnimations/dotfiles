@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.1" encoding="UTF-8"?>
 
 <channel name="thunar" version="1.0">
   <property name="last-view" type="string" value="ThunarDetailsView"/>
@@ -6,9 +6,9 @@
   <property name="last-window-width" type="int" value="1366"/>
   <property name="last-window-height" type="int" value="768"/>
   <property name="last-window-maximized" type="bool" value="true"/>
-  <property name="last-separator-position" type="int" value="150"/>
+  <property name="last-separator-position" type="int" value="148"/>
   <property name="last-details-view-zoom-level" type="string" value="THUNAR_ZOOM_LEVEL_38_PERCENT"/>
-  <property name="last-details-view-column-widths" type="string" value="50,50,192,151,177,90,50,50,477,50,50,76,50,436"/>
+  <property name="last-details-view-column-widths" type="string" value="50,50,191,188,186,723,50,50,774,50,50,73,50,145"/>
   <property name="last-sort-column" type="string" value="THUNAR_COLUMN_NAME"/>
   <property name="last-sort-order" type="string" value="GTK_SORT_ASCENDING"/>
   <property name="last-show-hidden" type="bool" value="true"/>
@@ -20,10 +20,14 @@
   <property name="misc-confirm-close-multiple-tabs" type="bool" value="false"/>
   <property name="last-toolbar-item-order" type="string" value="0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18"/>
   <property name="last-toolbar-visible-buttons" type="string" value="0,1,1,1,1,0,0,0,0,0,0,0,0,0,1,1,1,0,0"/>
-  <property name="last-splitview-separator-position" type="int" value="782"/>
+  <property name="last-splitview-separator-position" type="int" value="771"/>
   <property name="misc-date-style" type="string" value="THUNAR_DATE_STYLE_SHORT"/>
-  <property name="misc-thumbnail-mode" type="string" value="THUNAR_THUMBNAIL_MODE_ALWAYS"/>
+  <property name="misc-thumbnail-mode" type="string" value="THUNAR_THUMBNAIL_MODE_ONLY_LOCAL"/>
   <property name="misc-recursive-permissions" type="string" value="THUNAR_RECURSIVE_PERMISSIONS_ALWAYS"/>
-  <property name="misc-thumbnail-max-file-size" type="uint64" value="10737418240"/>
+  <property name="misc-thumbnail-max-file-size" type="uint64" value="10485760"/>
   <property name="misc-thumbnail-draw-frames" type="bool" value="true"/>
+  <property name="misc-file-size-binary" type="bool" value="false"/>
+  <property name="misc-folders-first" type="bool" value="true"/>
+  <property name="misc-text-beside-icons" type="bool" value="false"/>
+  <property name="last-toolbar-items" type="string" value="menu:0,back:1,forward:1,open-parent:1,open-home:1,undo:0,redo:0,zoom-in:0,zoom-out:0,zoom-reset:0,view-as-icons:0,view-as-detailed-list:0,view-as-compact-list:0,toggle-split-view:0,location-bar:1,reload:1,search:1,uca-action-1699921397689904-1:0,uca-action-1699925845751618-1:0,new-tab:0,new-window:0,view-switcher:0"/>
 </channel>

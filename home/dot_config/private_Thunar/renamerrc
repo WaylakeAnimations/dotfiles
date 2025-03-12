@@ -8,21 +8,21 @@ Text=Armor_
 Mode=THUNAR_SBR_INSERT_MODE_INSERT
 OffsetMode=THUNAR_SBR_OFFSET_MODE_LEFT
 
-[ThunarSbrNumberRenamer]
-TextMode=THUNAR_SBR_TEXT_MODE_NT
-Text=
-Mode=THUNAR_SBR_NUMBER_MODE_001002003
-Start=1
-
 [ThunarSbrReplaceRenamer]
 CaseSensitive=FALSE
 Replacement=
 Pattern=y2mate.com -\ 
 Regexp=FALSE
 
+[ThunarSbrNumberRenamer]
+TextMode=THUNAR_SBR_TEXT_MODE_OTN
+Text=
+Mode=THUNAR_SBR_NUMBER_MODE_123
+Start=1
+
 [ThunarSbrRemoveRenamer]
 StartOffset=0
-EndOffset=29
+EndOffset=13
 EndOffsetMode=THUNAR_SBR_OFFSET_MODE_LEFT
 StartOffsetMode=THUNAR_SBR_OFFSET_MODE_LEFT
 
