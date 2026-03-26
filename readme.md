@@ -1,14 +1,38 @@
 ![desktop](https://github.com/PigmanBruh/dotfiles/assets/87263998/bb8cbcd4-a789-44cf-a9ac-773b1aae7486)
-## Welcome to PigmanBruh's Dotfiles Repository
+## Welcome to Waylake's Dotfiles Repository
 
-While nothing stopping you from just copying my whole configuration, i would advise against doing that, just take what you need and adapt it to your use case and preferences
+While nothing stopping you from just copying my whole configuration, i would advise against doing that, take what you need and adapt it to your use case and preferences...
 
+Contain configs and stuff for...
+- BleachBit
+- Blender
+- btop
+- Elephant
+- GRUB
+- htop
+- Hyprland
+- Hyprlock
+- Hyprpaper
+- Kitty
+- Krita
+- Lakeside Theme
+- Musikcube
+- nwg-bar
+- nwg-look
+- oh-my-bash
+- s-tui
+- Swaync
+- Thunar
+- Walker
+- Waybar
+- Waybar Quotes
+
+Extras :
+- Wallpapers
+- Pacman package list script
 
 ## Usage
 
-This repo are managed with [chezmoi](https://chezmoi.io), and while it only handle home folder dotfiles by default, someone found a [workaround](https://github.com/twpayne/chezmoi/discussions/1510#discussioncomment-2627391) and i decided to modify and use it...
+Note to self : Install the stuff first before applying the configs...
 
-```
-alias hezmoi="chezmoi --destination ~ --source '~/dotfiles/home' --working-tree '~/dotfiles/home'"
-alias rezmoi="chezmoi --destination / --source '~/dotfiles/root' --working-tree '~/dotfiles/root'"
-```
+At some point, i kinda ditched chezmoi because i think just copying things around is simpler to do...

@@ -1,0 +1,27 @@
+name = "lake-personal-menu"
+name_pretty = "Lake's Personal Menu"
+action = "%VALUE%"
+fixed_order = true
+history = false
+
+[[entries]]
+text = "Lakeside Theme"
+value = "walker --provider menus:lakeside-theme-lua --hideqa -N"
+
+[[entries]]
+text = "Static Wallpapers"
+value = "walker --provider menus:st-wp --hideqa -N"
+
+[[entries]]
+text = "Live Wallpapers"
+subtext = "kinda heavy though"
+value = "walker --provider menus:live-wp --hideqa -N"
+
+[[entries]]
+text = "Toggle mpvpaper"
+subtext = "kinda heavy though"
+value = "~/.local/share/lakeside-theme/mpvpaper.sh"
+
+[[entries]]
+text = "Hyprpicker"
+value = "hyprpicker -a"

@@ -1,0 +1,6 @@
+[Shortcuts]
+copy_frames=Alt+C
+copy_frames_as_clones=Shift+D
+cut_frames=Alt+X
+movetool-move-up-more=none
+paste_frames=Alt+V

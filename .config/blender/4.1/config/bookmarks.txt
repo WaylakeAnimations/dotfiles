@@ -1,0 +1,16 @@
+[Bookmarks]
+/home/Waylake/Blender/projects/
+/home/Waylake/Blender/
+/home/Waylake/Git Repos/urawa-hanako-cursor-theme/Urawa Hanako (3D) Source/
+/home/Waylake/Blender/projects/hanacursor/
+[Recent]
+/home/Waylake/Git Repos/urawa-hanako-cursor-theme/sources/Urawa Hanako (3D)/hold no ptr/
+/home/Waylake/Blender/projects/hanacursor/rendered/
+/home/Waylake/Blender/projects/hanacursor/rendered/hold hanako only/
+/home/Waylake/Git Repos/urawa-hanako-cursor-theme/sources/Urawa Hanako (3D)/hold/
+/home/Waylake/Blender/projects/hanacursor/
+/home/Waylake/Drawings/these 2 may or may not had segs/
+/home/Waylake/Drawings/gail/female-anime-basemesh/source/
+/home/Waylake/Drawings/gail/
+/home/Waylake/Drawings/exported timelapses/
+/home/Waylake/KritaRecorder/20260225083033/

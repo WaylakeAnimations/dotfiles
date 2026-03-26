@@ -1,0 +1,638 @@
+Edge (Ctrl E) ▸ Bridge Edge Loops
+Physics ▸ Soft Body
+  sequence merge
+   BG_CS_PR_03.png
+   wood
+ceiling bevel
+  hanako baked physics
+0 hanako baked physics
+Location, Rotation & Scale
+hanako baked physics
+F hanako baked physics
+F hanako
+F hanako action original.001
+F hanako action original.002
+F hanako action original
+   Hanako_Original_Weapon.png.001
+  hanako.002
+   tex_BaseBody_Hanako.png
+   tex_Eye_Hanako.png
+   New Project 7 [44C66F1].png
+   New Project 7 [3FA22D6].png
+  main scene
+  Bfont Regular
+0 Outfit Regular.001
+   Material.007
+Edit ▸ Weighted Normal
+outer bevel
+inner bevel
+  Auto Smooth
+inner bevel 2
+inner bevel 3
+Generate ▸ Multiresolution
+lower bevel
+corner bevel
+corner bevel 2
+neck b
+front b
+overall b
+ 0 dark metal
+   glass.001
+ 0 Glass
+upper b
+lower b
+   metal
+bevel 2
+   Fullblack
+   dark diffuse.001
+F hanakoAction
+L0 World.001|[cute hanako regular.blend]
+F hanako s original
+0 Action
+F hanako original
+body.001
+   dark metal
+   white cabinets
+  Arms
+   necron_layer_1.png
+   storm_layer_1.png
+   Blush.png
+   necron_layer_2.png
+   necron dhead.png
+   necron dhead_e.png
+MCprep ▸ Effects Spawner ▸ Explosion
+Mesh ▸ Operations ▸ Subdivide Mesh
+Unassigned ▸ Geometry Nodes
+Utilities ▸ Math
+  koyukiAction
+Texture ▸ Environment Texture
+   glow.001
+ F Metal.001
+ F Metal
+Shader ▸ Glass BSDF
+  ParticleSettings
+  Plane.016
+   diffuse
+   glow
+ 0 Yuuka_Original_Halo
+ 0 Yuuka_Original_Weapon
+   Yuuka_Original_Halo
+Empty ▸ Plain Axes
+   wall metal
+Add Modifier ▸ Geometry Nodes
+0 Geometry Nodes
+F Geometry Nodes
+ViewLayer
+  Action.001
+  EmptyAction
+base pose
+up down
+sway
+  base pose
+   Aris_Original_Body.png.001
+   Aris_Original_Body.png
+   Aris_Original_EyeMouth.png.001
+   Aris_Original_Face.png
+   Aris_Original_Face.png.002
+   Aris_Original_Hair.png
+   Aris_Original_Halo.png
+   Aris_Original_EyeMouth.png
+  eye visibility
+   cake inner
+   skin.002
+  New Project 7 [3FA22D6].001
+0 Shiroko_Original_Body.001
+  Shiroko_Original_Body.002
+   Shiroko_Original_Face
+   Shiroko_Original_Eyebrow
+   Shiroko_Original_EyeMouth
+   Shiroko_Original_Hair
+   Shiroko_Original_Body
+   skin suit human var hat.png
+Area ▸ Close Area
+  up/down
+   paper
+Point ▸paper material|Float
+Point ▸paper|Float
+Geometry ▸ Operations ▸ Merge by Distance
+Utilities ▸ Math ▸ Map Range
+   dark diffuse
+   cover
+  Root
+  New Project 7 [3FA22D6].002
+0 New Project 7 [3FA22D6].001
+Point ▸Inner|Float
+Geometry ▸ Read ▸ Normal
+   straw inner
+   straw
+  mask
+   PigmanBruh shirt Human Var
+  u
+  o
+  i
+  e
+  a
+  closed
+0 maskAction
+   T_clean_exponent.001
+   T_clean_normal.001
+   T_emissive_clean.001
+   dQK2qAWi_8x.jpg
+   gabriel18_Car rubber wheel_BaseColor.1001.png
+   gabriel18_Car rubber wheel_Height.1001.png
+   gabriel18_Car rubber wheel_Metallic.1001.png
+   gabriel18_Car rubber wheel_Roughness.1001.png
+   T_Gabriel_Albedo.tga
+   T_Gabriel_Metallic.tga
+   T_Gabriel_Normal.tga
+   T_Gabriel_Roughness.tga
+   T_Gabriel_Sword.png.003
+   T_Gabriel2.png.007
+   rtx_3090_ti.png
+   gabriel18_Stainless Steel_Roughness.1001.png
+   gabriel18_Stainless Steel_Normal.1001.png
+   gabriel18_Stainless Steel_Metallic.1001.png
+   gabriel18_Stainless Steel_Height.1001.png
+   gabriel18_Stainless Steel_BaseColor.1001.png
+   gabriel18_M_Gabriel_Roughness.1001.png
+   gabriel18_M_Gabriel_Normal.1001.png
+   gabriel18_M_Gabriel_Metallic.1001.png
+   gabriel18_M_Gabriel_Height.1001.png
+   gabriel18_M_Gabriel_BaseColor.1001.png
+   gabriel18_front cloth.007_Roughness.1001.png.001
+   gabriel18_front cloth.007_Normal.1001.png.001
+   gabriel18_front cloth.007_Metallic.1001.png.001
+   gabriel18_front cloth.007_Height.1001.png.001
+   gabriel18_front cloth.007_BaseColor.1001.png.001
+   gabriel18_Fine Gold.001_Roughness.1001.png
+   gabriel18_Fine Gold.001_Normal.1001.png
+   gabriel18_Fine Gold.001_Metallic.1001.png
+   gabriel18_Fine Gold.001_Height.1001.png
+   gabriel18_Fine Gold.001_BaseColor.1001.png
+   gabriel18_dangly bits.006_Roughness.1001.png.001
+   gabriel18_dangly bits.006_Normal.1001.png.001
+   gabriel18_dangly bits.006_Metallic.1001.png.001
+   gabriel18_dangly bits.006_Height.1001.png.001
+   gabriel18_dangly bits.006_BaseColor.1001.png.001
+   gabriel18_Crystal_Roughness.1001.png
+   gabriel18_Crystal_Normal.1001.png
+   gabriel18_Crystal_Metallic.1001.png
+   gabriel18_Crystal_Emissive.<UDIM>.png
+   gabriel18_Crystal_BaseColor.1001.png
+   gabriel18_Car rubber wheel_Normal.1001.png
+SM_Gabriel.023
+L  dark plastic|[schale scene.blend]
+  walk
+0 walk stop
+  walk stop
+  dance3
+  stunt
+0 stunt2.001
+   Shiroko_Original_Bag.png
+   Shiroko_Original_Body.png
+   Shiroko_Original_EyeMouth.png
+   Shiroko_Original_Face.png
+   Shiroko_Original_Hair.png
+   Shiroko_Original_Halo.png
+   Shiroko_Original_Weapon.png
+F dance1
+  dance1 start
+  stunt2
+  stunt2.001
+  shirokoAction
+Group.001
+   edge glow.001
+   Chesed_Original_Halo
+   Chesed_Original
+Shader ▸ Volume Absorption
+Converter ▸ Map Range
+  Cube.005
+  light cutter.001
+   pillar
+   light glow
+  sparkle2
+  dust
+  dust.001
+  sparkle
+  Displacement
+Group ▸ Displacement
+   edge glow fade
+ 0 Mouth.001
+   edge glow
+   edge glow circle
+   New Project 7 [3FA22D6].002
+   mask1.png
+   screen
+ 0 Screenshot_2024-11-29_14-11-02.png
+ 0 Screenshot_2024-11-20_11-11-35.png
+ 0 Screenshot_2024-11-12_17-11-14.png
+   Screenshot_2024-12-11_12-12-59.png
+ 0 Screenshot_2024-12-10_17-12-17.png
+peripherals
+guest stuff
+   water
+Mesh ▸ Weights ▸ Normalize All
+   suit inner
+   CH0184_Body.png
+open mouth bg
+teeth
+   Hanako_Original_Face.png.001
+Color ▸ Light Falloff
+  LCM to RCM
+   outer
+F LCM to RCM
+F RCM to LCM
+   eyes
+   tie
+LCM to RCM
+MCprep ▸ Item Spawner ▸ end crystal
+   end_crystal.png
+Group
+ 0 Tiles 01
+  utaha hair
+  root
+  sensei.001
+  utaha.001
+   shoes
+  hair.001
+   Sensei_Anime_Portrait.png
+  luupi
+   blush.png.001
+Texture ▸ Multiple Images
+   suit darker.003
+  Cube.001
+0 Cube.002
+  Cube.023
+  hanako
+ 0 wall
+  main.001
+  reff1
+  2.001
+  1
+  2
+  3
+  4
+  5
+  6
+  7
+  8
+  9
+   Aru_Original_Body.png
+   Aru_Original_EyeMouth.png
+   Aru_Original_Face.png
+   Aru_Original_Hair.png
+   Aru_Original_Halo.png
+   Aru_Original_Weapon.png
+   Azusa_Original_Body.png
+   Azusa_Original_Bullet.png
+   Azusa_Original_EyeMouth.png
+   Azusa_Original_Face.png
+   Azusa_Original_Hair.png
+   Azusa_Original_Halo.png
+   Azusa_Original_Weapon.png
+   suit dark inner
+   suit dark
+   suit dark darker
+Select ▸ Select All by Trait ▸ Loose Geometry
+Texture ▸ Noise Texture
+  body.001
+  1 hair.001
+  1 hair.002
+  1 hair
+ 0 World
+  1 hair.003
+Force Field ▸ Charge
+chip
+  Outfit Regular.001|[schale scene.blend]
+   card text
+Shader ▸ Subsurface Scattering
+Converter ▸ Separate XYZ
+Converter ▸ Combine Color
+Mask ▸ Cryptomatte
+Vector ▸ Separate XYZ
+Vector ▸ Combine XYZ
+  Streak Line Mask
+  Streak Line
+Line Direction
+Line
+Line Mask
+Main
+Converter ▸ Shader to RGB
+   Hoshino
+Lines
+   Black
+Texture ▸ Gradient Texture
+ F regular
+ F greenscreen
+ 0  dog
+   white
+   resin
+   white.001
+   inner
+   white blue
+   blue.001
+   suit
+   blue
+   suit darker
+F headset
+0 headset
+  elia intro
+  Camera
+0 Camera.001Action
+  Camera no const
+0 Camera no const.001
+  Camera.002
+  Camera tracker
+0 Camera const
+0 CameraAction
+dance
+  aris sitting
+  placement
+Location & Scale
+0 elia placement
+  hair aris
+  aris light
+  saiba twins back
+F dance
+   tomate.png
+ 0 floor
+0 jump
+  aris maid
+   lightning
+   halo
+  dash forward
+  dash up.001
+Input ▸ Value
+  slash controller.003
+  slash controller
+   slash.001
+   slash.002
+   slash.003
+   handguard
+   blade
+Generate ▸ Mirror
+   armor2
+   armor
+MCprep ▸ Entity Spawner ▸ Shield
+MCprep ▸ Item Spawner ▸ diamond sword
+  Lattice
+  SmartHead_Lattice
+Deform ▸ Armature
+Mesh ▸ Cube
+Body.001
+Converter ▸ Mix
+ 0 wood
+   shield_base.metal
+   shield steel
+Normals ▸ Smooth by Angle
+hat
+  run
+   hat.001
+0 hanakoAction
+0 Hoshino_OriginalAction
+Eyebrow_control
+Utilities ▸ Map Range
+  Serika_Original
+ 0 0001.png
+ 0 0001.png.001
+  hoshino
+  HoshinoAction
+0 hoshino.001
+  shiroko
+0 serika
+  ayane
+control reference.004
+   World
+Output ▸ File Output
+Filter ▸ Blur ▸ Defocus
+Filter ▸ Denoise
+Input ▸ Image
+   waylake (vanz style) [D4594E4].png
+Filter ▸ Blur ▸ Blur
+Color ▸ Color Ramp
+Vector ▸ Bump
+Color ▸ Invert Color
+  height
+   height.png
+ 0 matcap_Tear3.bmp
+   matcap_Tear3.bmp
+   matcap_skin7_5.bmp
+   matcap_Hair1.bmp
+   matcap_cloth6.bmp
+   CH0184_Face.png
+   matcap_cloth5.bmp
+   CH0184_Body_EyeMouth.png
+   blush
+   Render Result
+   Yuuka_Original_Body
+0 hand back
+  selfie
+   hair
+Edit ▸ Normal Edit
+ 0 screen.001
+  Koharu_Original
+  Hihumi_Original.001
+  Hihumi_Original
+0 azusa switch.001
+  switch
+0 azusa switch 3
+0 azusa switch 4
+  dance1
+  dance2
+  hifumi
+hihumi expression
+dance1
+dance2
+  hihumi expression
+0 azoos expression
+  azusa switch
+  azusa switch 2
+  azusa switch 3
+  azusa switch 4
+  azoos expression
+Scale
+0 aoba
+  aoba.001
+  bone_root
+  elia
+pupils, mouth, and settings
+Color ▸ Mix ▸ Alpha Over
+Utilities ▸ Normalize
+bg
+shadow
+char
+mist sphere
+   hanako 4th anniv9.png
+   CH0159_Body
+  hanako 4th anniv9
+Shader ▸ Diffuse BSDF
+  Geometry Nodes
+Point ▸Group|Float
+Color ▸ Brightness/Contrast
+Instances ▸ Translate Instances
+Point ▸displacement|Float
+Point ▸terrain|Float
+Point ▸scatter|Float
+  desert instanced visibility
+   cactus_1__pbrs2a_diffuse
+   cactus_1__pbrs2a_normal
+Color ▸ RGB Curves
+   kloofendal_48d_partly_cloudy_puresky_4k.hdr
+   floor
+0 env park instancedAction
+   rete.001
+   screen.001
+ 0 screen
+   0001.png.001
+   0001.png.003
+   0001.png.002
+ 0 0001.png.005
+ 0 0001.png.004
+  aoba raise
+  hikari raise
+  nozomi raise
+  nozomiAction.001
+  sequence
+Color ▸ Adjust ▸ Hue/Saturation/Value
+Color ▸ Adjust ▸ Brightness/Contrast
+Color ▸ Adjust ▸ Exposure
+  hanako.001
+F bone_root|CH0209_Formation_Pickup|Base Layer
+  hanako s
+   CH0209_Eyebrow
+   CH0209_Hair
+0 hanako sAction
+Camera
+regular
+  senseiAction.001
+Deform ▸ Surface Deform
+Generate ▸ Solidify
+   Mouth
+  Kotama_Original
+bone_skirtB_L_03
+bone_skirtB_R_03
+Generate ▸ Bevel
+0 digital clock 24
+  Outfit Regular
+Input ▸ Constant ▸ Material
+Material ▸ Set Material
+   screen white
+Utilities ▸ Text ▸ Value to String
+Input ▸ Constant ▸ Value
+Input ▸ Constant ▸ Integer
+Geometry ▸ Read ▸ Radius
+Utilities ▸ Math ▸ Float to Integer
+Utilities ▸ Text ▸ String Length
+Utilities ▸ Math ▸ Compare
+bevel
+   black dif
+   Screenshot_2025-08-14_10-08-40.png
+ 0 Screenshot_2025-08-14_10-08-14.png
+   wall
+  ClockAction
+  trash light
+  corner light
+  board 2nd
+  lounge
+  chihiroAction
+   Kotama_Original_Halo
+  board light
+ 0 chihiro halo
+Shader ▸ Principled BSDF
+   Kotama_Original_Face.png
+Texture ▸ Image Texture
+Converter ▸ Math
+Group ▸ Group Input
+  Outfit Regular.001
+Curve ▸ Operations ▸ Trim Curve
+Curve ▸ Operations ▸ Fill Curve
+Generate ▸ Subdivision Surface
+Generate ▸ Wireframe
+Utilities ▸ Math ▸ Boolean Math
+Utilities ▸ Text ▸ Join Strings
+Geometry ▸ Join Geometry
+Curve ▸ Primitives ▸ Curve Circle
+Utilities ▸ Math ▸ Math
+  focus target
+ F World.001
+ F World
+Available
+Color ▸ Alpha Convert
+Color ▸ Mix ▸ Separate Color
+Location & Rotation
+0 mouth2
+  mouth
+0 transition
+  transition
+  Cube.006
+ 0 concrete
+   concrete
+Light ▸ Sun
+ F Grass
+ 0 park wall
+ F Concrete.001
+   park wall
+ F Wood
+Generate ▸ Decimate
+0 main light.001
+  main light
+F main
+  halo
+0 mouth.001
+0 mouth2.001
+  mouth.001
+F mouth
+  hair
+   Wood02_basecolor.tga
+  left side scene props
+  Scene.001
+Shader ▸ Transparent BSDF
+   Material
+  Scene
+  Scene.002
+   Mouth.001
+ 0 Mouth
+   0001.png
+  CH0245_Body
+
+  CH0245_Mesh
+  control reference
+Generate ▸ Array
+Geometry Nodes ▸ Displacement
+Location
+   imf
+main
+imf
+   skin
+MCprep ▸ Item Spawner ▸ mace
+  Thomas_rig
+EyesTracker
+  sensei
+Bip001 Pelvis
+Generate ▸ Boolean
+Input ▸ Light Path
+Shader ▸ Mix Shader
+Input ▸ Fresnel
+Converter ▸ Color Ramp
+Color ▸ Hue/Saturation/Value
+Color ▸ Mix Color
+Input ▸ RGB
+Shader ▸ Emission
+Rotation
+  main
+  aris
+  sq
+Add ▸ Camera
+ 0 World.002
+ 0 World.001
+ 0 World.003
+   cur outer
+   cur inner
+  default
+  hold alt curs
+Input ▸ Image Sequence
+  hold
+Input ▸ Mask
+Mask ▸ Box Mask
+Color ▸ Mix ▸ Mix Color
+Color ▸ Set Alpha

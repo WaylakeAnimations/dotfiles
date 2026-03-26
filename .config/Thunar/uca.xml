@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actions>
+<action>
+	<icon>system-file-manager</icon>
+	<name>Thunar Root</name>
+	<submenu></submenu>
+	<unique-id>1774251843699028-1</unique-id>
+	<command>pkexec thunar %f</command>
+	<description></description>
+	<range>1</range>
+	<patterns>*</patterns>
+	<directories/>
+</action>
+</actions>
