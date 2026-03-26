@@ -1,9 +1,12 @@
-![desktop](https://github.com/PigmanBruh/dotfiles/assets/87263998/bb8cbcd4-a789-44cf-a9ac-773b1aae7486)
+<img width="1366" height="768" alt="Screenshot_2026-03-26_21-57-17" src="https://github.com/user-attachments/assets/aa78740e-23f7-44ed-8623-fdc2585a7a06" />
+
 ## Welcome to Waylake's Dotfiles Repository
 
 While nothing stopping you from just copying my whole configuration, i would advise against doing that, take what you need and adapt it to your use case and preferences...
 
-Contain configs and stuff for...
+## Software lists
+
+### Contain configs and stuff for...
 - BleachBit
 - Blender
 - btop
@@ -15,7 +18,6 @@ Contain configs and stuff for...
 - Hyprpaper
 - Kitty
 - Krita
-- Lakeside Theme
 - Musikcube
 - nwg-bar
 - nwg-look
@@ -25,11 +27,18 @@ Contain configs and stuff for...
 - Thunar
 - Walker
 - Waybar
+
+### Extras :
+- Lakeside Theme
+- Pacman package list script
+- Wallpapers
 - Waybar Quotes
 
-Extras :
-- Wallpapers
-- Pacman package list script
+## More screenshots
+
+<img width="1366" height="768" alt="Screenshot_2026-03-26_22-32-46" src="https://github.com/user-attachments/assets/e4325e94-8643-40de-b025-ed4e2563f21a" />
+
+todo : add more screenshots...
 
 ## Usage
 
