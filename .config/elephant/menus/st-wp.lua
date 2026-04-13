@@ -9,6 +9,7 @@ History = false
 Cache=false
 
 function GetEntries()
+    local home_dir = os.getenv("HOME")
     local entries = {}
 
     table.insert(entries, {
@@ -19,12 +20,12 @@ function GetEntries()
 
     table.insert(entries, {
         Text = "Theme Dependent",
-        Value = "pkill mpvpaper ; echo 0 > ~/.local/share/lakeside-theme/mpvpaper-status.txt ; hyprctl hyprpaper wallpaper ' , ~/.local/share/lakeside-theme/current-wallpapers/static.png, fill'",
+        Value = "hyprctl hyprpaper wallpaper ' , " .. home_dir .. "/lsrl-loaded/wallpaper/static.png, fill'",
         Subtext = "Follow current theme",
-        Icon = "/home/Waylake/.local/share/lakeside-theme/current-wallpapers/static.png"
+        Icon = home_dir .. "/lsrl-loaded/wallpaper/static.png"
     })
 
-    local wp_dir = "/home/Waylake/Wallpapers/"
+    local wp_dir = home_dir .. "/Wallpapers/"
     local handle = io.popen("find '" ..
         wp_dir ..
         "' -maxdepth 1 -name '*.jpg' -o -name '*.jpeg' -o -name '*.png' -o -name '*.gif' -o -name '*.bmp' -o -name '*.webp' 2>/dev/null")
@@ -34,7 +35,7 @@ function GetEntries()
             if filename then
                 table.insert(entries, {
                     Text = filename,
-                    Value = "pkill mpvpaper ; echo 0 > ~/.local/share/lakeside-theme/mpvpaper-status.txt ; hyprctl hyprpaper wallpaper ' , " .. line .. ", fill'",
+                    Value = "hyprctl hyprpaper wallpaper ' , " .. line .. ", fill'",
                     -- Preview = line,
                     -- PreviewType = "file",
                     Icon = line

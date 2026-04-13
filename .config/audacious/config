@@ -1,0 +1,14 @@
+
+[audgui]
+filesel_path=/home/Waylake/Lake's Chosen Tracks
+
+[audqt]
+theme=dark
+
+[pipewire]
+volume_left=100
+volume_right=100
+
+[qtui]
+player_height=486
+player_width=777

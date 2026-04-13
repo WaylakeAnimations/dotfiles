@@ -1,0 +1,25 @@
+name = "power-menu"
+name_pretty = "power-menu"
+action = "%VALUE%"
+fixed_order = true
+history = false
+
+[[entries]]
+text = "Lock"
+value = "hyprlock -c ~/.config/hypr/hyprlock.conf"
+icon = "/usr/share/nwg-bar/images/system-lock-screen.svg"
+
+[[entries]]
+text = "Logout"
+value = "hyprctl dispatch exit"
+icon = "/usr/share/nwg-bar/images/system-log-out.svg"
+
+[[entries]]
+text = "Reboot"
+value = "systemctl reboot"
+icon = "/usr/share/nwg-bar/images/system-reboot.svg"
+
+[[entries]]
+text = "Shutdown"
+value = "systemctl -i poweroff"
+icon = "/usr/share/nwg-bar/images/system-shutdown.svg"
