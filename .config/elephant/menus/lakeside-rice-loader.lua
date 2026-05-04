@@ -37,7 +37,7 @@ function GetEntries()
                     table.insert(entries, {
                         Text = filename,
                         Subtext = (rice_set_metadata.description),
-                        Value = "hyprctl dispatch exec -- bash ~/.local/share/lakeside-rice-loader/lsrl.sh " .. filename,
+                        Value = "hyprctl dispatch \'hl.dsp.exec_cmd(\"bash ~/.local/share/lakeside-rice-loader/lsrl.sh " .. filename .. "\")\'",
                         Icon = line .. "/wallpaper/static.png"
                     })
                     file:close()

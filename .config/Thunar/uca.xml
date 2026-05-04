@@ -11,4 +11,47 @@
 	<patterns>*</patterns>
 	<directories/>
 </action>
+<action>
+	<icon>/home/Waylake/.local/share/icons/Papirus-HyprArchive/48x48/apps/terminal.svg</icon>
+	<name>Open in Terminal</name>
+	<submenu></submenu>
+	<unique-id>1774706299094096-1</unique-id>
+	<command>kitty %f</command>
+	<description></description>
+	<range>*</range>
+	<patterns>*</patterns>
+	<directories/>
+</action>
+<action>
+	<icon>emblem-symbolic-link</icon>
+	<name>Make symlink</name>
+	<submenu></submenu>
+	<unique-id>1775143766319794-1</unique-id>
+	<command>ln -s %f %d/ln-%n</command>
+	<description></description>
+	<range>*</range>
+	<patterns>*</patterns>
+	<directories/>
+	<audio-files/>
+	<image-files/>
+	<other-files/>
+	<text-files/>
+	<video-files/>
+</action>
+<action>
+	<icon>emblem-symbolic-link</icon>
+	<name>Make relative symlink</name>
+	<submenu></submenu>
+	<unique-id>1115142746319734-1</unique-id>
+	<command>cd %d ; ln -s %n ln-%n</command>
+	<description></description>
+	<range>*</range>
+	<patterns>*</patterns>
+	<directories/>
+	<audio-files/>
+	<image-files/>
+	<other-files/>
+	<text-files/>
+	<video-files/>
+</action>
 </actions>

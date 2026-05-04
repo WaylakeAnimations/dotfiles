@@ -4,12 +4,16 @@ case $- in
     *) return;;
 esac
 
+if [[ "$TERM" == 'xterm-kitty' ]]; then
+    fastfetch -c ~/.config/fastfetch/config-lite.jsonc
+fi
+
 # Path to your oh-my-bash installation.
 export OSH='/home/Waylake/.oh-my-bash'
 
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-bash is loaded.
-OSH_THEME="powerline"
+OSH_THEME="pinkline"
 
 # If you set OSH_THEME to "random", you can ignore themes you don't like.
 # OMB_THEME_RANDOM_IGNORED=("powerbash10k" "wanelo")
@@ -143,9 +147,10 @@ source "$OSH"/oh-my-bash.sh
 # alias bashconfig="mate ~/.bashrc"
 # alias ohmybash="mate ~/.oh-my-bash"
 
-alias hezmoi="chezmoi --destination ~ --source '~/dotfiles/home' --working-tree '~/dotfiles/home'"
-alias rezmoi="chezmoi --destination / --source '~/dotfiles/root' --working-tree '~/dotfiles/root'"
 alias ls='ls --color=auto'
 alias grep='grep --color=auto'
 alias fh='clear ; fastfetch -c ~/.config/fastfetch/config-lite.jsonc'
-alias clr='clear'
+
+# Created by `pipx` on 2026-04-16 07:58:11
+export PATH="$PATH:/home/Waylake/.local/bin"
+export EDITOR='nano'
