@@ -9,7 +9,7 @@ local lockscreen   = "hyprlock -c ~/.config/hypr/hyprlock.conf"
 local menu   = "walker --provider desktopapplications --hideqa --theme hyarc-app"
 local pmenu  = "walker --provider menus:lake-personal-menu --hideqa -N --theme hyarc-menu"
 
-local shutdown_menu = "walker --provider menus:power-menu --hideqa -N -n --minheight 210 --maxheight 210 --minwidth 160 --maxwidth 160"
+local shutdown_menu = "walker --provider menus:hyarc-power-menu --hideqa -N -n --minheight 315 --maxheight 315 --minwidth 240 --maxwidth 240 --theme hyarc-power"
 
 
 --------------------
@@ -30,7 +30,7 @@ hl.bind(mainMod .. " + SHIFT + SPACE", hl.dsp.window.float({ action = "toggle" }
 hl.bind(mainMod .. " + F",             hl.dsp.window.fullscreen({ action = "toggle" }))
 
 -- Misc --
-hl.bind(mainMod .. " + SHIFT + Q", hl.dsp.window.close())
+hl.bind(mainMod .. " + Q", hl.dsp.window.close())
 hl.bind(mainMod .. " + SHIFT + E", hl.dsp.exec_cmd(shutdown_menu))
 
 hl.bind(mainMod .. " + P", hl.dsp.exec_cmd("grimshot --cursor --notify save screen $(date +$(echo ~)/Screenshots/Screenshot_%Y-%m-%d_%H-%M-%S.png)"))
