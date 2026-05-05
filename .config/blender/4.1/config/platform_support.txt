@@ -19,3 +19,4 @@
 {Intel/Mesa Intel(R) HD Graphics 400 (BSW)/4.6 (Core Profile) Mesa 25.3.4-arch1.1}=SUPPORTED
 {Intel/Mesa Intel(R) HD Graphics 400 (BSW)/4.6 (Core Profile) Mesa 26.0.1-arch1.1}=SUPPORTED
 {Intel/Mesa Intel(R) HD Graphics 400 (BSW)/4.6 (Core Profile) Mesa 26.0.3-arch1.1}=SUPPORTED
+{Intel/Mesa Intel(R) HD Graphics 400 (BSW)/4.6 (Core Profile) Mesa 26.0.4-arch1.1}=SUPPORTED

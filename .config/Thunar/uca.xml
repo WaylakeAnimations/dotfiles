@@ -54,4 +54,52 @@
 	<text-files/>
 	<video-files/>
 </action>
+<action>
+	<icon></icon>
+	<name>Copy filename</name>
+	<submenu></submenu>
+	<unique-id>1777907106019844-1</unique-id>
+	<command>wl-copy %n</command>
+	<description></description>
+	<range>*</range>
+	<patterns>*</patterns>
+	<directories/>
+	<audio-files/>
+	<image-files/>
+	<other-files/>
+	<text-files/>
+	<video-files/>
+</action>
+<action>
+	<icon></icon>
+	<name>Send with LocalSend</name>
+	<submenu></submenu>
+	<unique-id>1777965024881210-1</unique-id>
+	<command>localsend %N</command>
+	<description></description>
+	<range>*</range>
+	<patterns>*</patterns>
+	<directories/>
+	<audio-files/>
+	<image-files/>
+	<other-files/>
+	<text-files/>
+	<video-files/>
+</action>
+<action>
+	<icon></icon>
+	<name>Copy to dotfiles folder</name>
+	<submenu></submenu>
+	<unique-id>1777993841139952-1</unique-id>
+	<command>cp -rf %f $(dirname $(echo %f | sed &quot;s|$HOME|$HOME/dotfiles|&quot;))</command>
+	<description></description>
+	<range>1-1</range>
+	<patterns>*</patterns>
+	<directories/>
+	<audio-files/>
+	<image-files/>
+	<other-files/>
+	<text-files/>
+	<video-files/>
+</action>
 </actions>

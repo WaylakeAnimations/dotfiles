@@ -1,8 +1,10 @@
 require("visuals")
 require("animations")
 require("autostarts")
+require("transparency")
 require("apps-and-keybinds")
 require("monitor-and-env")
+require("rules")
 require("misc")
 
 -------------------------------------

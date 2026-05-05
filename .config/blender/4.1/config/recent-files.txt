@@ -1,3 +1,13 @@
+/home/Waylake/.config/kitty/bg.blend
+/home/Waylake/Blender/projects/astraea/vis.blend
+/home/Waylake/Blender/projects/astraea/cover.blend
+/home/Waylake/Blender/projects/astraea/astraea.blend
+/home/Waylake/Blender/blender tmp/astraea_123728_autosave.blend
+/home/Waylake/Blender/blender tmp/astraea_42090_autosave.blend
+/home/Waylake/Blender/projects/ovl comp/untitled.blend
+/home/Waylake/Blender/projects/be a girl/be a girl.blend
+/home/Waylake/Blender/projects/sensei model/sensei genderbend.blend
+/home/Waylake/Blender/projects/sensei model/sensei.blend
 /home/Waylake/Blender/projects/hanacursor/hanacursor1.blend
 /home/Waylake/Blender/projects/hanacursor/hanacursor.blend
 /home/Waylake/Drawings/these 2 may or may not had segs/these 2 may or may not had segs.blend
@@ -8,13 +18,3 @@
 /home/Waylake/Blender/projects/dance/dance.blend
 /home/Waylake/Blender/projects/skin showcase/skin showcase1.blend
 /home/Waylake/Blender/projects/skin showcase/skin showcase.blend
-/home/Waylake/Blender/projects/inactivity/inactivity.blend
-/home/Waylake/Blender/projects/hug/hug11111.blend
-/home/Waylake/Blender/projects/hug/hug.blend
-/home/Waylake/Blender/projects/hangout with hanako/hangout with hanako.blend
-/home/Waylake/Blender/projects/batting fail/batting fail.blend
-/home/Waylake/Blender/Assets/Blue Archive Chibi Models/rei.blend
-/home/Waylake/Blender/projects/monitoring/monitoring.blend
-/home/Waylake/Blender/projects/hy/hy.blend
-/home/Waylake/Blender/projects/hi/hi.blend
-/home/Waylake/Blender/projects/monitoring/monitoring sprite1.blend

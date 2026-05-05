@@ -50,7 +50,7 @@ hl.window_rule({
     name               = "rename",
     match = {
         class          = "thunar",
-        initial_title  = "(\bRename\b)[^$]*",
+        initial_title  = ".*Rename.*"
     },
     float              = true,
     size               = "monitor_w/3 monitor_h/6",
@@ -61,7 +61,7 @@ hl.window_rule({
     name               = "Attention",
     match = {
         class          = "thunar",
-        initial_title  = "Attention",
+        initial_title  = ".*Attention.*"
     },
     center             = true,
 })
@@ -70,7 +70,7 @@ hl.window_rule({
     name               = "replace",
     match = {
         class          = "thunar",
-        initial_title  = "Confirm to replace files",
+        initial_title  = ".*Confirm to replace files.*"
     },
     center             = true,
 })
@@ -79,11 +79,11 @@ hl.window_rule({
     name               = "File Operation",
     match = {
         class          = "thunar",
-        initial_title  = "File Operation Progress",
+        initial_title  = ".*File Operation Progress.*",
     },
     float              = true,
     size               = "monitor_w/3 monitor_h/2.5",
-    move               = "(monitor_w-(monitor_w/3))-25 (monitor_h-(monitor_h/2.5))-50",
+    move               = "(monitor_w-(monitor_w/3))-25 (monitor_h-(monitor_h/2.5))-50"
 })
 
 hl.window_rule({

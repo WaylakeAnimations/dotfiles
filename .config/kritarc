@@ -2,13 +2,13 @@ AlsoSaveAsKra=false
 AntialiasSelectionOutline=false
 ArtColorSel.ColorSpace=0
 ArtColorSel.InversedSaturation=false
-ArtColorSel.Light=1
+ArtColorSel.Light=0
 ArtColorSel.LightPieces=11
 ArtColorSel.NumRings=7
 ArtColorSel.RingPieces=12
 ArtColorSel.SelColorH=0
 ArtColorSel.SelColorS=0
-ArtColorSel.SelColorX=1
+ArtColorSel.SelColorX=0
 ArtColorSel.defaultHueSteps=12
 ArtColorSel.defaultSaturationSteps=7
 ArtColorSel.defaultValueScaleSteps=11
@@ -24,21 +24,24 @@ BackgroundColorForNewImage=255,255,255
 BackgroundOpacityForNewImage=255
 BackgroundStyleForNewImage=0
 CanvasOnlyActive=false
-CanvasSize/ConstrainProportions=true
-CanvasSize/KeepAspectRatio=true
+CanvasSize/ConstrainProportions=false
+CanvasSize/KeepAspectRatio=false
 ColorManagement/UseSystemMonitorProfile=false
 ConvertToImageColorSpaceOnImport=false
 CreateBackupFile=true
 ExportConfiguration-ANIMATION_EXPORT=<!DOCTYPE params>\n<params>\n <param type="string" name="basename"><![CDATA[frame]]></param>\n <param type="string" name="custom_ffmpeg_options"><![CDATA[-crf 23 -preset medium -profile:v baseline -pix_fmt yuv420p]]></param>\n <param type="internal" name="delete_sequence">true</param>\n <param type="string" name="directory"><![CDATA[]]></param>\n <param type="internal" name="encode_video">true</param>\n <param type="string" name="ffmpeg_path"><![CDATA[/usr/bin/ffmpeg]]></param>\n <param type="string" name="filename"><![CDATA[./hangout with hanako2.mp4]]></param>\n <param type="internal" name="first_frame">15</param>\n <param type="internal" name="frame_export/CICPCompatiblePrimaries">1</param>\n <param type="internal" name="frame_export/CICPCompatibleTransferFunction">13</param>\n <param type="string" name="frame_export/ColorDepthID"><![CDATA[U8]]></param>\n <param type="string" name="frame_export/ColorModelID"><![CDATA[RGBA]]></param>\n <param type="internal" name="frame_export/HDRSupported">false</param>\n <param type="internal" name="frame_export/ImageContainsTransparency">false</param>\n <param type="internal" name="frame_export/sRGB">true</param>\n <param type="string" name="frame_mimetype"><![CDATA[image/png]]></param>\n <param type="internal" name="framerate">30</param>\n <param type="internal" name="height">640</param>\n <param type="internal" name="include_audio">false</param>\n <param type="string" name="last_document_path"><![CDATA[/home/Waylake/Drawings/hangout with hanako/hangout with hanako2.kra]]></param>\n <param type="internal" name="last_frame">68</param>\n <param type="internal" name="only_unique_frames">false</param>\n <param type="internal" name="sequence_start">15</param>\n <param type="string" name="video_mimetype"><![CDATA[video/mp4]]></param>\n <param type="internal" name="width">906</param>\n</params>\n
 ExportConfiguration-image/jpeg=<!DOCTYPE params>\n<params>\n <param type="internal" name="baseline">true</param>\n <param type="internal" name="exif">true</param>\n <param type="string" name="filters"><![CDATA[]]></param>\n <param type="internal" name="forceSRGB">false</param>\n <param type="internal" name="iptc">true</param>\n <param type="internal" name="is_sRGB">true</param>\n <param type="internal" name="optimize">true</param>\n <param type="internal" name="progressive">false</param>\n <param type="internal" name="quality">80</param>\n <param type="internal" name="saveProfile">true</param>\n <param type="internal" name="smoothing">0</param>\n <param type="internal" name="storeAuthor">false</param>\n <param type="internal" name="storeMetaData">false</param>\n <param type="internal" name="subsampling">0</param>\n <param type="color" name="transparencyFillcolor"><![CDATA[<!DOCTYPE color>\n<color>\n <RGB r="1" b="1" space="sRGB-elle-V2-g10.icc" g="1"/>\n</color>\n]]></param>\n <param type="internal" name="xmp">true</param>\n</params>\n
-ExportConfiguration-image/png=<!DOCTYPE params>\n<params>\n <param type="internal" name="alpha">true</param>\n <param type="internal" name="compression">3</param>\n <param type="internal" name="downsample">false</param>\n <param type="internal" name="forceSRGB">true</param>\n <param type="internal" name="indexed">false</param>\n <param type="internal" name="interlaced">false</param>\n <param type="internal" name="saveAsHDR">false</param>\n <param type="internal" name="saveSRGBProfile">false</param>\n <param type="internal" name="storeAuthor">false</param>\n <param type="internal" name="storeMetaData">false</param>\n <param type="color" name="transparencyFillcolor"><![CDATA[<!DOCTYPE color>\n<color>\n <RGB b="1" space="sRGB-elle-V2-g10.icc" r="1" g="1"/>\n</color>\n]]></param>\n</params>\n
-FilterSelector/LastUsedFilter=hsvadjustment
+ExportConfiguration-image/png=<!DOCTYPE params>\n<params>\n <param name="alpha" type="internal">true</param>\n <param name="compression" type="internal">3</param>\n <param name="downsample" type="internal">false</param>\n <param name="forceSRGB" type="internal">true</param>\n <param name="indexed" type="internal">false</param>\n <param name="interlaced" type="internal">false</param>\n <param name="saveAsHDR" type="internal">false</param>\n <param name="saveSRGBProfile" type="internal">false</param>\n <param name="storeAuthor" type="internal">false</param>\n <param name="storeMetaData" type="internal">false</param>\n <param name="transparencyFillcolor" type="color"><![CDATA[<!DOCTYPE color>\n<color>\n <RGB b="1" g="1" r="1" space="sRGB-elle-V2-g10.icc"/>\n</color>\n]]></param>\n</params>\n
+ExrDefaultColorProfile=...V2-g10.icc
+FetchNews=false
+FetchNewsLanguages=en_Latn_US
+FilterSelector/LastUsedFilter=gaussian blur
 GamutMasks.viewMode=0
 KineticScrollingEnabled=true
 KineticScrollingGesture=2
 KineticScrollingHideScrollbar=false
 KineticScrollingSensitivity=75
-KisDlgPreferences/CurrentPage=performance
+KisDlgPreferences/CurrentPage=tablet
 Krita/Ocio/DisplayDevice=sRGB
 Krita/Ocio/DisplayLook=None
 Krita/Ocio/DisplayView=Raw
@@ -48,19 +51,23 @@ Krita/Ocio/OcioConfigPath=
 Krita/Ocio/OcioLockColorVisualRepresentation=false
 Krita/Ocio/OcioLutPath=
 Krita/Ocio/UseOcio=false
-LastBackGroundColor=<!DOCTYPE LastBackGroundColor>\n<LastBackGroundColor>\n <RGB b="0.972549021244049" space="sRGB-elle-V2-srgbtrc.icc" r="0.0980392172932625" g="0.843137264251709"/>\n</LastBackGroundColor>\n
+LastBackGroundColor=<!DOCTYPE LastBackGroundColor>\n<LastBackGroundColor>\n <RGB b="1" g="1" r="1" space="sRGB-elle-V2-srgbtrc.icc"/>\n</LastBackGroundColor>\n
+LastColorHistory=<!DOCTYPE LastColorHistory>\n<colors>\n <RGB b="0" g="0" r="0" space="sRGB-elle-V2-srgbtrc.icc"/>\n <RGB b="1" g="0.250980406999588" r="0" space="sRGB-elle-V2-srgbtrc.icc"/>\n <RGB b="0.0666666701436043" g="0" r="1" space="sRGB-elle-V2-srgbtrc.icc"/>\n <RGB b="0.0156862754374743" g="0" r="0.309803932905197" space="sRGB-elle-V2-srgbtrc.icc"/>\n <RGB b="0.905882358551025" g="0.61176472902298" r="0.415686279535294" space="sRGB-elle-V2-srgbtrc.icc"/>\n <RGB b="1" g="1" r="1" space="sRGB-elle-V2-srgbtrc.icc"/>\n <RGB b="0.0313725508749485" g="0" r="1" space="sRGB-elle-V2-srgbtrc.icc"/>\n <RGB b="0.752941191196442" g="0.600000023841858" r="0.274509817361832" space="sRGB-elle-V2-srgbtrc.icc"/>\n <RGB b="0.819607853889465" g="0.850980401039124" r="0.458823531866074" space="sRGB-elle-V2-srgbtrc.icc"/>\n <RGB b="1" g="0.423529416322708" r="0.0117647061124444" space="sRGB-elle-V2-srgbtrc.icc"/>\n <RGB b="0" g="0.0156862754374743" r="1" space="sRGB-elle-V2-srgbtrc.icc"/>\n <RGB b="0.23137255012989" g="0.0901960805058479" r="0.925490200519562" space="sRGB-elle-V2-srgbtrc.icc"/>\n <RGB b="0.423529416322708" g="0.0117647061124444" r="1" space="sRGB-elle-V2-srgbtrc.icc"/>\n <Gray g="1" space="Gray-D50-elle-V2-srgbtrc.icc"/>\n <RGB b="0.0588235296308994" g="0.192156866192818" r="0.627451002597809" space="sRGB-elle-V2-srgbtrc.icc"/>\n <RGB b="0.937254905700684" g="0.807843148708344" r="0.152941182255745" space="sRGB-elle-V2-srgbtrc.icc"/>\n <RGB b="0.509803950786591" g="0.26274511218071" r="1" space="sRGB-elle-V2-srgbtrc.icc"/>\n <RGB b="0.0588235296308994" g="0.192156866192818" r="0.627451002597809" space="sRGB-elle-V2-srgbtrc.icc"/>\n <RGB b="0.0313725508749485" g="0" r="1" space="sRGB-elle-V2-srgbtrc.icc"/>\n <RGB b="0.866666674613953" g="0" r="1" space="sRGB-elle-V2-srgbtrc.icc"/>\n <RGB b="1" g="0.0117647061124444" r="0.835294127464294" space="sRGB-elle-V2-srgbtrc.icc"/>\n <RGB b="0.0117647061124444" g="1" r="0.325490206480026" space="sRGB-elle-V2-srgbtrc.icc"/>\n <RGB b="0.423529416322708" g="0.0117647061124444" r="1" space="sRGB-elle-V2-srgbtrc.icc"/>\n <RGB b="1" g="0.266666680574417" r="0" space="sRGB-elle-V2-srgbtrc.icc"/>\n <RGB b="0" g="0.584313750267029" r="0.00784313771873713" space="sRGB-elle-V2-srgbtrc.icc"/>\n <RGB b="0.866666674613953" g="0" r="1" space="sRGB-elle-V2-srgbtrc.icc"/>\n <Gray g="0" space="Gray-D50-elle-V2-srgbtrc.icc"/>\n <RGB b="0" g="0.584313750267029" r="0.00784313771873713" space="sRGB-elle-V2-srgbtrc.icc"/>\n <RGB b="0" g="1" r="0.0156862754374743" space="sRGB-elle-V2-srgbtrc.icc"/>\n <RGB b="0.886274516582489" g="0.0117647061124444" r="1" space="sRGB-elle-V2-srgbtrc.icc"/>\n <RGB b="0.423529416322708" g="0.0117647061124444" r="1" space="sRGB-elle-V2-srgbtrc.icc"/>\n <RGB b="0.0588235296308994" g="0.192156866192818" r="0.627451002597809" space="sRGB-elle-V2-srgbtrc.icc"/>\n <RGB b="0" g="0.105882354080677" r="0.454901963472366" space="sRGB-elle-V2-srgbtrc.icc"/>\n <RGB b="0" g="0.0509803928434849" r="1" space="sRGB-elle-V2-srgbtrc.icc"/>\n <RGB b="0.800000011920929" g="0.807843148708344" r="1" space="sRGB-elle-V2-srgbtrc.icc"/>\n <RGB b="1" g="0" r="0.0313725508749485" space="sRGB-elle-V2-srgbtrc.icc"/>\n <Gray g="0" space="Gray-D50-elle-V2-srgbtrc.icc"/>\n <RGB b="1" g="0" r="0" space="sRGB-elle-V2-srgbtrc.icc"/>\n <Gray g="0" space="Gray-D50-elle-V2-srgbtrc.icc"/>\n <RGB b="1" g="0.0980392172932625" r="0" space="sRGB-elle-V2-srgbtrc.icc"/>\n <RGB b="1" g="0" r="0.949019610881805" space="sRGB-elle-V2-srgbtrc.icc"/>\n <RGB b="0" g="0" r="1" space="sRGB-elle-V2-srgbtrc.icc"/>\n <RGB b="0.776470601558685" g="0.403921574354172" r="0.121568627655506" space="sRGB-elle-V2-srgbtrc.icc"/>\n <RGB b="0.176470592617989" g="0.121568627655506" r="0.776470601558685" space="sRGB-elle-V2-srgbtrc.icc"/>\n</colors>\n
 LastEraser_0=a) Eraser Circle
-LastForeGroundColor=<!DOCTYPE LastForeGroundColor>\n<LastForeGroundColor>\n <RGB b="1" space="sRGB-elle-V2-srgbtrc.icc" r="1" g="1"/>\n</LastForeGroundColor>\n
+LastForeGroundColor=<!DOCTYPE LastForeGroundColor>\n<LastForeGroundColor>\n <RGB b="0" g="0" r="0" space="sRGB-elle-V2-srgbtrc.icc"/>\n</LastForeGroundColor>\n
 LastPreset=b) Airbrush Soft
-LastPreset_-1=b) Airbrush Soft
+LastPreset_-1=d) Ink-2 Fineliner
 LineSmoothingDelayDistance=45
 LineSmoothingDistance=1000
+LineSmoothingDistanceKeepAspectRatio=true
+LineSmoothingDistanceMax=1000
+LineSmoothingDistanceMin=1000
 LineSmoothingFinishStabilizedCurve=true
 LineSmoothingScalableDistance=true
 LineSmoothingSmoothPressure=true
 LineSmoothingStabilizeSensors=true
 LineSmoothingTailAggressiveness=0.4
-LineSmoothingType=1
+LineSmoothingType=2
 LineSmoothingUseDelayDistance=true
 NumberOfLayersForNewImage=2
 OpenGLFilterMode=0
@@ -85,6 +92,7 @@ animationCacheRegionOfInterestMargin=0.25
 antialiascurves=false
 assistantsDrawMode=0
 autoPinLayers=true
+autoZoomTimelineToPlaybackRange=true
 autosavefileshidden=true
 backupfilelocation=0
 backupfilesuffix=~
@@ -103,6 +111,11 @@ checksize=32
 colorDepthDef=U8
 colorModelDef=RGBA
 colorProfileDef=sRGB-elle-V2-srgbtrc.icc
+colorSamplerPreviewCircleDiameter=180
+colorSamplerPreviewCircleExtraCirclesEnabled=true
+colorSamplerPreviewCircleOutlineEnabled=true
+colorSamplerPreviewCircleThickness=12
+colorSamplerPreviewStyle=1
 colorsettings/forcepalettecolors=false
 compressLayersInKra=false
 convertLayerColorSpaceInProperties=true
@@ -112,8 +125,9 @@ cumulativeUndoMaxGroupSeparation=1000
 cumulativeUndoMergeTimeout=5000
 currentInputProfile=Krita Default
 cursorMaincColor=128,255,128
-custom_font_size=-1
-custom_system_font=
+custom_font_size=11
+custom_system_font=Outfit
+defaultExportMimeType=image/png
 defaultPalette=Default
 defaultProofingAdaptationState=1
 defaultProofingBlackpointCompensation=true
@@ -133,7 +147,7 @@ eraserOutlineStyle=2
 favoriteCompositeOps=normal,erase,multiply,burn,darken,add,dodge,screen,overlay,soft_light_svg,luminize,lighten,saturation,color,divide,inc_saturation_hsl,gamma_dark,shade_ifs_illusions,linear_burn,darker color,easy burn,inc_saturation_hsv,fog_darken_ifs_illusions
 favoritePresetsTag=★ My Favorites
 ffmpegLocation=/usr/bin/ffmpeg
-filterdialog/geometry=\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x02\x97\x00\x00\x00O\x00\x00\x04\x98\x00\x00\x02@\x00\x00\x02\x97\x00\x00\x00O\x00\x00\x04\x98\x00\x00\x02@\x00\x00\x00\x00\x00\x00\x00\x00\x05V\x00\x00\x02\x97\x00\x00\x00O\x00\x00\x04\x98\x00\x00\x02@
+filterdialog/geometry=\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x02a\x00\x00\x00[\x00\x00\x04b\x00\x00\x02L\x00\x00\x02a\x00\x00\x00[\x00\x00\x04b\x00\x00\x02L\x00\x00\x00\x00\x00\x00\x00\x00\x05V\x00\x00\x02a\x00\x00\x00[\x00\x00\x04b\x00\x00\x02L
 filterdialog/rememberlastpreset=true
 forceAlwaysFullSizedEraserOutline=false
 forceAlwaysFullSizedOutline=false
@@ -142,7 +156,7 @@ fpsLimit=100
 frameRenderingClones=1
 frameRenderingTimeout=30000
 fullscreenMode=false
-generatordialog/geometry=\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x02\x9c\x00\x00\x00\x8f\x00\x00\x05W\x00\x00\x02<\x00\x00\x02\x9c\x00\x00\x00\x8f\x00\x00\x05W\x00\x00\x02<\x00\x00\x00\x00\x00\x00\x00\x00\x05V\x00\x00\x02\x9c\x00\x00\x00\x8f\x00\x00\x05W\x00\x00\x02<
+generatordialog/geometry=\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x02\x99\x00\x00\x00\x8f\x00\x00\x05T\x00\x00\x02<\x00\x00\x02\x99\x00\x00\x00\x8f\x00\x00\x05T\x00\x00\x02<\x00\x00\x00\x00\x00\x00\x00\x00\x05V\x00\x00\x02\x99\x00\x00\x00\x8f\x00\x00\x05T\x00\x00\x02<
 globalSnapBoundingBox=false
 globalSnapExtension=false
 globalSnapImageBounds=true
@@ -151,6 +165,8 @@ globalSnapIntersection=false
 globalSnapNode=false
 globalSnapOrthogonal=false
 globalSnapToPixel=false
+gridisoverticalcolor=150,150,150
+gridisoverticalstyle=0
 gridmaincolor=99,99,99
 gridmainstyle=0
 gridsubdivisioncolor=150,150,150
@@ -160,15 +176,15 @@ guidesLineStyle=0
 hideDockersFullScreen=true
 hideMenuFullScreen=true
 hidePopups=false
-hideScrollbars=false
+hideScrollbars=true
 hideScrollbarsFullScreen=true
 hideStatusbarFullScreen=true
 hideTitleBarFullscreen=true
 hideToolbarFullscreen=true
 ignoreHighFunctionKeys=true
-imageHeightDef=720
+imageHeightDef=2000
 imageResolutionDef=300
-imageWidthDef=1280
+imageWidthDef=2000
 imageoffsetdlg_xoffsetunit=px
 imageoffsetdlg_yoffsetunit=px
 imagesizedlg_imsizeunit=px
@@ -185,10 +201,11 @@ layersizedlg_keepprop=false
 layersizedlg_widthunit=px
 levelOfDetailEnabled=false
 logviewer_enabled=false
+longPressEnabled=false
 maxAllowedSpeedValue=30
 maxSwapSize=2048
-maximumBrushSize=1000
-mdiBackgroundColorXML=<!DOCTYPE color>\n<color channeldepth="U8">\n <RGB b="0.301960796117783" g="0.301960796117783" space="sRGB-elle-V2-srgbtrc.icc" r="0.301960796117783"/>\n</color>\n
+maximumBrushSize=990
+mdiBackgroundColorXML=<!DOCTYPE color>\n<color channeldepth="U8">\n <RGB b="0.301960796117783" g="0.301960796117783" r="0.301960796117783" space="sRGB-elle-V2-srgbtrc.icc"/>\n</color>\n
 mdiBackgroundImage=
 mdi_rubberband=1
 mdi_viewmode=1
@@ -197,8 +214,8 @@ memoryPoolLimitPercent=0
 memorySoftLimitPercent=2
 monitorProfile=sRGB-elle-V2-srgbtrc.icc
 monitorProfile/OverrideX11=false
-moveToolChangedValueX=-89
-moveToolChangedValueY=-358
+moveToolChangedValueX=846
+moveToolChangedValueY=313
 moveToolMode=0
 moveToolStep=1
 moveToolUnit=0
@@ -257,13 +274,15 @@ pasteFormat=0
 pixelGridColor=255,255,255
 pixelGridDrawingThreshold=24
 pixelGridEnabled=true
+popuppalette/colorHistorySorting=hsv
 popuppalette/selectorSize=140
 popuppalette/showColorHistory=true
 popuppalette/showRotationTrack=true
 popuppalette/size=385
 popuppalette/useDynamicSlotCount=true
 popuppalette/usevisualcolorselector=false
-presethistory=d) Ink-2 Fineliner,d) Ink-1 Precision,f) Bristles-2 Flat Rough,b) Basic-5 Size Opacity,c) Pencil-2,b) Airbrush Soft,b) Basic-5 Size,a) Eraser Small,a) Eraser Circle,e) Marker Dry
+presetStripVisible=true
+presethistory=b) Basic-5 Size Opacity,c) Pencil-2,b) Airbrush Soft,b) Basic-5 Size,a) Eraser Small,a) Eraser Circle,e) Marker Dry,g) Dry Brushing,d) Ink-2 Fineliner,d) Ink-1 Precision
 recorder/captureinterval=8
 recorder/recordautomatically=true
 recorder/recordisolatelayermode=false
@@ -275,6 +294,7 @@ recorder_export/inputfps=60
 recorder_export/lastframesec=5
 recorder_export/resultpreview=false
 recorder_export/videodirectory=/home/Waylake/Drawings/exported timelapses
+renameDuplicatedLayers=true
 renameMergedLayers=true
 renamePastedLayers=true
 renderIntent=0
@@ -282,6 +302,7 @@ rulersTrackMouse=true
 saveSessionOnQuit=true
 scratchpadVisible=true
 scrollingcheckers=false
+selectionActionBar=true
 selectionOutlineOpacity=1
 selectionOverlayMaskColor=255,0,0,128
 separateEraserCursor=false
@@ -299,11 +320,13 @@ showrulers=false
 speedValueSmoothing=3
 swaplocation=/tmp
 switchSelectionCtrlAlt=false
-tabletPressureCurve=0,0;1,1;
+tabletPressureCurve=0,0;0.243626,0.518072;1,1;
+tiltDirectionOffset=0
 toolbarslider_1=opacity
 toolbarslider_2=size
 toolbarslider_3=flow
 toolbarslider_4=flow
+toolbarslider_5=flow
 touchPainting=0
 undoStackLimit=200
 useAnimationCacheFrameSizeLimit=true
@@ -317,15 +340,17 @@ useOpenGLTextureBuffer=true
 useRightMiddleTabletButtonWorkaround=true
 useSubtractiveBlendingForCmykColorSpaces=true
 useTimestampsForBrushSpeed=false
-use_custom_system_font=false
+useTouchPressureSensitivity=true
+use_custom_system_font=true
+zoomHorizontal=false
 zoomMarginSize=0
 zoomSteps=2
 
 [File Dialogs]
 DontUseNativeFileDialog=true
-OpenDocument=/home/Waylake/Drawings/gail
-OpenReferenceImage=/home/Waylake/Drawings/mirinae
-SaveAs=/home/Waylake/Drawings/gail
+OpenDocument=/home/Waylake/Wallpapers
+OpenReferenceImage=/home/Waylake/Drawings/hana-kurarin
+SaveAs=/home/Waylake/Drawings/a normal uno game
 savenodeasimage=/home/Waylake/Drawings/hanako 4th anniv/hanako 4th anniv wp
 
 [GenericGradientEditor]
@@ -348,11 +373,11 @@ splitterState_1row=\x00\x00\x00\xff\x00\x00\x00\x01\x00\x00\x00\x02\xff\xff\xff\
 splitterState_2row=\x00\x00\x00\xff\x00\x00\x00\x01\x00\x00\x00\x03\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\x01\xff\xff\xff\xff\x01\x00\x00\x00\x01\x00
 
 [KisShortcutsDialog Settings]
-Dialog Size=701,547
+Dialog Size=753,608
 
 [KisToolCrop]
 allowGrow=false
-cropType=2
+cropType=1
 decoration=4
 growCenter=false
 
@@ -384,7 +409,7 @@ selectionAction=0
 antiAliasSelection=true
 contiguousSelectionMode=floodFill
 featherSelection=0
-growSelection=1
+growSelection=0
 opacitySpread=100
 sampleLayersMode=sampleCurrentLayer
 stopGrowingAtDarkestPixel=true
@@ -468,13 +493,12 @@ spacing=0.2
 useWashMode=false
 
 [MainWindow]
-1366x768 screen: Height=710
+1366x768 screen: Height=734
 1366x768 screen: Width=1332
-State=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AAAAFABHAHIAaQBkAEQAbwBjAGsAZQByAAAAAAD/////AAABKwD////7AAAAHgBIAGkAcwB0AG8AZwByAGEAbQBEAG8AYwBrAGUAcgAAAAAA/////wAAAEUA////+wAAACoAQQBuAGkAbQBhAHQAaQBvAG4AQwB1AHIAdgBlAHMARABvAGMAawBlAHIAAAAAAP////8AAABoAP////sAAAAyAFMAdgBnAFMAeQBtAGIAbwBsAEMAbwBsAGwAZQBjAHQAaQBvAG4ARABvAGMAawBlAHIAAAAAAP////8AAAB4AP////sAAAAWAFQAbwB1AGMAaABEAG8AYwBrAGUAcgAAAAJMAAABMQAAABMA////+wAAABoAQQByAHIAYQBuAGcAZQBEAG8AYwBrAGUAcgAAAAICAAAAowAAADYA////+wAAADoAYwBvAG0AaQBjAHMAXwBwAHIAbwBqAGUAYwB0AF8AbQBhAG4AYQBnAGUAcgBfAGQAbwBjAGsAZQByAAAAAAD/////AAAAtwD////7AAAAKgBxAHUAaQBjAGsAXwBzAGUAdAB0AGkAbgBnAHMAXwBkAG8AYwBrAGUAcgAAAAAA/////wAAAHoA////+wAAABYAUABhAGcAZQByAEQAbwBjAGsAZQByAAAAAAD/////AAAAAAAAAAD7AAAAJgBsAGEAcwB0AGQAbwBjAHUAbQBlAG4AdABzAGQAbwBjAGsAZQByAAAAAAD/////AAAAeAD////7AAAAEgBHAGEAbQB1AHQATQBhAHMAawAAAAAA/////wAAAKkA////+wAAABAAUwBuAGEAcABzAGgAbwB0AAAAAt8AAACkAAAAdgD////7AAAAEgBMAG8AZwBEAG8AYwBrAGUAcgAAAAAA/////wAAAHgA////+wAAACAAUwB0AG8AcgB5AGIAbwBhAHIAZABEAG8AYwBrAGUAcgAAAAAA/////wAAAJoA////+wAAABwAUgBlAGMAbwByAGQAZQByAEQAbwBjAGsAZQByAgAAAZoAAACuAAACIwAAAY37AAAALABXAGkAZABlAEcAYQBtAHUAdABDAG8AbABvAHIAUwBlAGwAZQBjAHQAbwByAAAAAAD/////AAAArgD///8AAAACAAAFVgAAAGn8AQAAAAH7AAAAGgBUAG8AbwBsAEIAYQByAEQAbwBjAGsAZQByAAAAAAD/////AAAAAAAAAAAAAAADAAAFNAAAAKb8AQAAAAT7AAAAHABGAGwAaQBwAGIAbwBvAGsARABvAGMAawBlAHIAAAAAAP////8AAAAAAAAAAPsAAAAeAEEAbgBpAG0AYQB0AGkAbwBuAEQAbwBjAGsAZQByAAAAAAD/////AAAAAAAAAAD7AAAAIABPAG4AaQBvAG4AUwBrAGkAbgBzAEQAbwBjAGsAZQByAAAAAAAAAAGCAAABNgD////7AAAAHABUAGkAbQBlAGwAaQBuAGUARABvAGMAawBlAHIAAAAAAAAABTQAAANpAP///wAAA80AAAJqAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAMAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAAAAAAHgBCAHIAdQBzAGgAZQBzAEEAbgBkAFMAdAB1AGYAZgEAAABm/////wAAAAAAAAAAAAAAFgBlAGQAaQB0AFQAbwBvAGwAQgBhAHIAAAAAAP////8AAAAAAAAAAA==
-ToolBarsMovable=Disabled
+State=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AAAAFABHAHIAaQBkAEQAbwBjAGsAZQByAAAAAAD/////AAABMAD////7AAAAHgBIAGkAcwB0AG8AZwByAGEAbQBEAG8AYwBrAGUAcgAAAAAA/////wAAAEoA////+wAAACoAQQBuAGkAbQBhAHQAaQBvAG4AQwB1AHIAdgBlAHMARABvAGMAawBlAHIAAAAAAP////8AAAB1AP////sAAAAyAFMAdgBnAFMAeQBtAGIAbwBsAEMAbwBsAGwAZQBjAHQAaQBvAG4ARABvAGMAawBlAHIAAAAAAP////8AAACRAP////sAAAAWAFQAbwB1AGMAaABEAG8AYwBrAGUAcgAAAAJMAAABMQAAABgA////+wAAABoAQQByAHIAYQBuAGcAZQBEAG8AYwBrAGUAcgAAAAICAAAAowAAADUA////+wAAADoAYwBvAG0AaQBjAHMAXwBwAHIAbwBqAGUAYwB0AF8AbQBhAG4AYQBnAGUAcgBfAGQAbwBjAGsAZQByAAAAAAD/////AAAA4wD////7AAAAKgBxAHUAaQBjAGsAXwBzAGUAdAB0AGkAbgBnAHMAXwBkAG8AYwBrAGUAcgAAAAAA/////wAAAI8A////+wAAABYAUABhAGcAZQByAEQAbwBjAGsAZQByAAAAAAD/////AAAAAAAAAAD7AAAAJgBsAGEAcwB0AGQAbwBjAHUAbQBlAG4AdABzAGQAbwBjAGsAZQByAAAAAAD/////AAAAlwD////7AAAAEgBHAGEAbQB1AHQATQBhAHMAawAAAAAA/////wAAAMwA////+wAAABAAUwBuAGEAcABzAGgAbwB0AAAAAt8AAACkAAAAkQD////7AAAAEgBMAG8AZwBEAG8AYwBrAGUAcgAAAAAA/////wAAAJMA////+wAAACAAUwB0AG8AcgB5AGIAbwBhAHIAZABEAG8AYwBrAGUAcgAAAAAA/////wAAALoA////+wAAABwAUgBlAGMAbwByAGQAZQByAEQAbwBjAGsAZQByAgAAAZoAAACuAAACIwAAAY37AAAALABXAGkAZABlAEcAYQBtAHUAdABDAG8AbABvAHIAUwBlAGwAZQBjAHQAbwByAAAAAAD/////AAAAwAD////7AAAAGgBtAHUAdABhAHQAbwByAEQAbwBjAGsAZQByAAAAAAD/////AAABQgD////7AAAAHABUAGUAeAB0AFAAcgBvAHAAZQByAHQAaQBlAHMAAAAAAP////8AAAB6AP////sAAAAwAHAAeQBrAHIAaQB0AGEAXwB3AG8AcgBrAGYAbABvAHcAXwBiAHUAdAB0AG8AbgBzAAAAAAD/////AAAAXAD////7AAAAHABCAHIAdQBzAGgASAB1AGQARABvAGMAawBlAHIAAAAAAP////8AAACbAP///wAAAAIAAAVWAAAAafwBAAAAAfsAAAAaAFQAbwBvAGwAQgBhAHIARABvAGMAawBlAHIAAAAAAP////8AAAAAAAAAAAAAAAMAAAU0AAAApvwBAAAABPsAAAAcAEYAbABpAHAAYgBvAG8AawBEAG8AYwBrAGUAcgAAAAAA/////wAAAAAAAAAA+wAAAB4AQQBuAGkAbQBhAHQAaQBvAG4ARABvAGMAawBlAHIAAAAAAP////8AAAAAAAAAAPsAAAAgAE8AbgBpAG8AbgBTAGsAaQBuAHMARABvAGMAawBlAHIAAAAAAAAAAYIAAAFGAP////sAAAAcAFQAaQBtAGUAbABpAG4AZQBEAG8AYwBrAGUAcgAAAAAAAAAFNAAAA8cA////AAAD7AAAAmoAAAAEAAAABAAAAAgAAAAI/AAAAAEAAAACAAAABQAAABYAbQBhAGkAbgBUAG8AbwBsAEIAYQByAQAAAAD/////AAAAAAAAAAAAAAAeAEIAcgB1AHMAaABlAHMAQQBuAGQAUwB0AHUAZgBmAQAAAGz/////AAAAAAAAAAAAAAAWAGUAZABpAHQAVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAAAAAAHABjAHUAcwB0AG8AbQBUAG8AbwBsAEIAYQByADEAAAAAAP////8AAAAAAAAAAAAAABwAYwB1AHMAdABvAG0AVABvAG8AbABCAGEAcgAyAAAAAAD/////AAAAAAAAAAA=
 eDP-1 Height 1366x768 eDP-1=710
 eDP-1 Width 1366x768 eDP-1=1332
-ko_geometry=AdnQywADAAAAAAARAAAAEQAABUQAAALWAAAAEQAAABEAAAVEAAAC1gAAAAAAAAAABVYAAAARAAAAEQAABUQAAALW
+ko_geometry=AdnQywADAAAAAAARAAAAEQAABUQAAALuAAAAEQAAABEAAAVEAAAC7gAAAAAAAAAABVYAAAARAAAAEQAABUQAAALu
 
 [MainWindow][DockWidget AnimationCurvesDocker]
 DockArea=2
@@ -500,6 +524,14 @@ width=334
 xPosition=0
 yPosition=0
 
+[MainWindow][DockWidget BrushHudDocker]
+DockArea=2
+Locked=false
+height=30
+width=100
+xPosition=0
+yPosition=0
+
 [MainWindow][DockWidget ChannelDocker]
 DockArea=2
 Locked=false
@@ -511,10 +543,10 @@ yPosition=0
 [MainWindow][DockWidget ColorSelectorNg]
 DockArea=2
 Locked=false
-height=463
+height=458
 width=640
 xPosition=0
-yPosition=17
+yPosition=22
 
 [MainWindow][DockWidget CompositionDocker]
 DockArea=2
@@ -543,34 +575,34 @@ yPosition=0
 [MainWindow][DockWidget GridDocker]
 DockArea=2
 Locked=false
-height=527
-width=258
+height=853
+width=1626
 xPosition=0
 yPosition=0
 
 [MainWindow][DockWidget HistogramDocker]
 DockArea=2
 Locked=false
-height=463
+height=458
 width=640
 xPosition=0
-yPosition=17
+yPosition=22
 
 [MainWindow][DockWidget History]
 DockArea=2
 Locked=false
-height=463
+height=458
 width=640
 xPosition=0
-yPosition=17
+yPosition=22
 
 [MainWindow][DockWidget KisLayerBox]
 DockArea=2
 Locked=false
-height=313
-width=293
+height=310
+width=272
 xPosition=0
-yPosition=17
+yPosition=22
 
 [MainWindow][DockWidget LogDocker]
 DockArea=2
@@ -599,7 +631,7 @@ yPosition=0
 [MainWindow][DockWidget OverviewDocker]
 DockArea=2
 Locked=false
-height=107
+height=121
 width=100
 xPosition=0
 yPosition=0
@@ -615,8 +647,8 @@ yPosition=0
 [MainWindow][DockWidget PatternDocker]
 DockArea=2
 Locked=false
-height=243
-width=145
+height=285
+width=178
 xPosition=0
 yPosition=0
 
@@ -640,17 +672,17 @@ yPosition=0
 DockArea=2
 Locked=false
 height=369
-width=277
+width=324
 xPosition=0
 yPosition=0
 
 [MainWindow][DockWidget SmallColorSelector]
 DockArea=2
 Locked=false
-height=463
+height=458
 width=640
 xPosition=0
-yPosition=17
+yPosition=22
 
 [MainWindow][DockWidget Snapshot]
 DockArea=2
@@ -679,16 +711,24 @@ yPosition=0
 [MainWindow][DockWidget SvgSymbolCollectionDocker]
 DockArea=2
 Locked=false
-height=463
+height=458
 width=640
 xPosition=0
-yPosition=17
+yPosition=22
 
 [MainWindow][DockWidget TasksetDocker]
 DockArea=2
 Locked=false
 height=300
 width=400
+xPosition=0
+yPosition=0
+
+[MainWindow][DockWidget TextProperties]
+DockArea=2
+Locked=false
+height=100
+width=0
 xPosition=0
 yPosition=0
 
@@ -727,239 +767,61 @@ yPosition=0
 [MainWindow][DockWidget comics_project_manager_docker]
 DockArea=2
 Locked=false
-height=463
+height=458
 width=640
 xPosition=0
-yPosition=17
+yPosition=22
 
 [MainWindow][DockWidget lastdocumentsdocker]
 DockArea=2
 Locked=false
-height=463
+height=458
 width=640
 xPosition=0
-yPosition=17
+yPosition=22
+
+[MainWindow][DockWidget mutatorDocker]
+DockArea=2
+Locked=false
+height=458
+width=640
+xPosition=0
+yPosition=22
+
+[MainWindow][DockWidget pykrita_workflow_buttons]
+DockArea=2
+Locked=false
+height=458
+width=640
+xPosition=0
+yPosition=22
 
 [MainWindow][DockWidget quick_settings_docker]
 DockArea=2
 Locked=false
-height=463
+height=458
 width=640
 xPosition=0
-yPosition=17
+yPosition=22
 
 [MainWindow][DockWidget sharedtooldocker]
 DockArea=2
 Locked=false
-height=236
-width=293
+height=233
+width=272
 xPosition=0
-yPosition=17
+yPosition=22
 
 [OverviewDocker]
 pinControls=true
 
 [RecentFiles]
-File1[$e]=$HOME/Blender/projects/mouth/mouth textures/0016.png
-File10[$e]=$HOME/Drawings/letting it out/letting it out6.kra
-File100[$e]=$HOME/Drawings/gail/gail (copy 1 sketch).kra
-File11[$e]=$HOME/Drawings/letting it out/letting it out3.kra
-File12[$e]=$HOME/Drawings/letting it out/letting it out4.kra
-File13[$e]=$HOME/Drawings/letting it out/letting it out1.kra
-File14[$e]=$HOME/Drawings/letting it out/letting it out2.kra
-File15[$e]=$HOME/Drawings/letting it out/letting it out5.kra
-File16[$e]=$HOME/Drawings/hanako drinking/hanako drinking4.png
-File17[$e]=$HOME/Drawings/gdd shirt/gdd shirt.kra
-File18[$e]=$HOME/Drawings/you guys getting plat ?/you guys getting plat ?.kra
-File19[$e]=$HOME/Drawings/hanako booba press/hanako booba press.kra
-File2[$e]=$HOME/Blender/projects/hanako posting 128/blush area.png
-File20[$e]=$HOME/Drawings/you guys getting plat ?/you guys could clear torment.png
-File21[$e]=$HOME/Drawings/hanako observing/hanako observing.kra
-File22[$e]=$HOME/Drawings/hanako observing/hanako observing wips/hanako observing2.png
-File23[$e]=$HOME/Drawings/elia shirt cut/i told you.png
-File24[$e]=$HOME/Drawings/elia shirt cut/i told you.kra
-File25[$e]=$HOME/Drawings/elia shirt cut/elia shirt cut.kra
-File26[$e]=$HOME/Drawings/hanako drinking/hanako drinking base.kra
-File27[$e]=$HOME/Drawings/hanako drinking/hanako drinking.kra
-File28[$e]=$HOME/Drawings/hanako bond 50/hanako bond 50.kra
-File29[$e]=$HOME/Drawings/hanako bond 50/hanako fumo.kra
-File3[$e]=$HOME/Blender/projects/hanako posting 128/hanako blush.kra
-File30[$e]=$HOME/Drawings/hanako bond 50/how should i explain it.kra
-File31[$e]=$HOME/Drawings/hanako bond 50/real deal.kra
-File32[$e]=$HOME/Drawings/hanako booba press/hanako getting jealous wips/hanako getting jealous4.png
-File33[$e]=$HOME/Drawings/hanako bond 50/pages/3rd page with sketch layers.kra
-File34[$e]=$HOME/Drawings/gdd shirt/gdd shirt final/gdd shirt no bg.png
-File35[$e]=$HOME/Drawings/5K rkgk/5k rkgk.kra
-File36[$e]=$HOME/Drawings/hanako bond 50/hanako fumo no bg.png
-File37[$e]=$HOME/Drawings/hanako bond 50/hanako  bond 50/2nd page.png
-File38[$e]=$HOME/Drawings/test2/test2.kra
-File39[$e]=$HOME/Drawings/hanako bond 50/pages/1st page.kra
-File4[$e]=$HOME/Drawings/eye of rah/Underground_Dweller_00.png
-File40[$e]=$HOME/Drawings/hanako :3/hanako :3.kra
-File41[$e]=$HOME/Drawings/kepin/kepin.kra
-File42[$e]=$HOME/Drawings/hanako bond 50/pages/3rd page2.kra
-File43[$e]=$HOME/Drawings/Commissions/ryura (CNL)/akari (c) with sketch.kra
-File44[$e]=$HOME/Drawings/pesona member hyperion/pesona member hyperion.kra
-File45[$e]=$HOME/Drawings/hanako bond 50/hanako  bond 50/3rd page.png
-File46[$e]=$HOME/Drawings/hanako milady/hanako milady.kra
-File47[$e]=$HOME/Drawings/hanako 4th anniv/hanako 4th anniv with sketch.kra
-File48[$e]=$HOME/Drawings/Commissions/ryura (CNL)/akari (c).kra
-File49[$e]=$HOME/Drawings/serika birthday/serika birthday.kra
-File5[$e]=$HOME/Drawings/eye of rah/Underground_Dweller_00.kra
-File50[$e]=$HOME/Drawings/Commissions/akmalreal/ami (c).kra
-File51[$e]=$HOME/Drawings/hanako cat new/hanako cat new s1.kra
-File52[$e]=$HOME/Drawings/hanacursor/hanacursor.kra
-File53[$e]=$HOME/Drawings/cheese hoshino/cheese hoshino.kra
-File54[$e]=$HOME/Drawings/arc ship/arc ship.kra
-File55[$e]=$HOME/Drawings/eepy hanako/eepy hanako.kra
-File56[$e]=$HOME/Drawings/hanako 4th anniv/hanako 4th anniv.kra
-File57[$e]=$HOME/Drawings/hanako bond 50/pages/3rd page.kra
-File58[$e]=$HOME/Drawings/the seia/the seia.kra
-File59[$e]=$HOME/Drawings/hanako bond 50/pages/2nd page.kra
-File6[$e]=$HOME/Blender/projects/mouth/mouth textures/0017.png
-File60[$e]=$HOME/Drawings/silhouette/silhouette.kra
-File61[$e]=$HOME/Drawings/stuff/gesture.kra
-File62[$e]=$HOME/Drawings/stuff/4d90caafeec8c8deef38e588fb369b18.kra
-File63[$e]=$HOME/Drawings/elia shirt cut/elia donut.kra
-File64[$e]=$HOME/Drawings/stuff/front.kra
-File65[$e]=$HOME/Drawings/hanako white dress/hanako white dress.kra
-File66[$e]=$HOME/Drawings/stuff/hand.kra
-File67[$e]=$HOME/Drawings/hanako drinking lemon/hanako drinking lemon s1.kra
-File68[$e]=$HOME/Drawings/stuff/3-4 head.kra
-File69[$e]=$HOME/Drawings/stuff/maurice.kra
-File7[$e]=$HOME/Blender/projects/sensei juga mau/mouth.kra
-File70[$e]=$HOME/Drawings/stuff/sphere.kra
-File71[$e]=$HOME/Drawings/stuff/painting.kra
-File72[$e]=$HOME/Drawings/stuff/edges.kra
-File73[$e]=$HOME/Drawings/hanako cat new/hanako cat new.kra
-File74[$e]=$HOME/Drawings/indirect kiss/pages/indirect kiss2.kra
-File75[$e]=$HOME/Drawings/you did great/you did great (copy 1).kra
-File76[$e]=$HOME/Drawings/hangout with hanako/hangout with hanako.kra
-File77[$e]=$HOME/Drawings/hangout with hanako/hangout with hanako22222.kra
-File78[$e]=$HOME/Drawings/hangout with hanako/hangout with hanako2.kra
-File79[$e]=$HOME/Drawings/mimori s/mimori s.kra
-File8[$e]=$HOME/Blender/projects/sensei model/blush.png
-File80[$e]=$HOME/Drawings/stuff/torso.kra
-File81[$e]=$HOME/Drawings/hanako drinking lemon/hanako drinking lemon.kra
-File82[$e]=$HOME/Drawings/you did great/you did great.kra
-File83[$e]=$HOME/Drawings/indirect kiss/pages/indirect kiss1.kra
-File84[$e]=$HOME/Drawings/stuff/Screenshot_20260116_184030.jpg
-File85[$e]=$HOME/Drawings/stuff/arm bone.kra
-File86[$e]=$HOME/Drawings/ultra synergy matrix/ultra synergy matrix.kra
-File87[$e]=$HOME/Drawings/hanako bday art/hanako bday art.kra
-File88[$e]=$HOME/Drawings/saki-chan/togif (1).gif
-File89[$e]=$HOME/Drawings/saki-chan/saki-chan.kra
-File9[$e]=$HOME/Blender/projects/sensei model/blush.kra
-File90[$e]=$HOME/Drawings/val/val.kra
-File91[$e]=$HOME/Drawings/brandon/brandon2.kra
-File92[$e]=$HOME/Drawings/brandon/brandon1.kra
-File93[$e]=$HOME/Drawings/hanako with shia pose/hanako with shia pose wp.kra
-File94[$e]=$HOME/.config/fastfetch/pic.png
-File95[$e]=$HOME/Drawings/mirinae/mirinae (copy 1).kra
-File96[$e]=$HOME/Drawings/mirinae/mirinae.kra
-File97[$e]=$HOME/Drawings/arc ship/arc ship.png
-File98[$e]=$HOME/Drawings/hanako with shia pose/hanako with shia pose.kra
-File99[$e]=$HOME/Drawings/gail/gail.kra
-Name1=0016.png
-Name10=letting it out6.kra
-Name100=gail (copy 1 sketch).kra
-Name11=letting it out3.kra
-Name12=letting it out4.kra
-Name13=letting it out1.kra
-Name14=letting it out2.kra
-Name15=letting it out5.kra
-Name16=hanako drinking4.png
-Name17=gdd shirt.kra
-Name18=you guys getting plat ?.kra
-Name19=hanako booba press.kra
-Name2=blush area.png
-Name20=you guys could clear torment.png
-Name21=hanako observing.kra
-Name22=hanako observing2.png
-Name23=i told you.png
-Name24=i told you.kra
-Name25=elia shirt cut.kra
-Name26=hanako drinking base.kra
-Name27=hanako drinking.kra
-Name28=hanako bond 50.kra
-Name29=hanako fumo.kra
-Name3=hanako blush.kra
-Name30=how should i explain it.kra
-Name31=real deal.kra
-Name32=hanako getting jealous4.png
-Name33=3rd page with sketch layers.kra
-Name34=gdd shirt no bg.png
-Name35=5k rkgk.kra
-Name36=hanako fumo no bg.png
-Name37=2nd page.png
-Name38=test2.kra
-Name39=1st page.kra
-Name4=Underground_Dweller_00.png
-Name40=hanako :3.kra
-Name41=kepin.kra
-Name42=3rd page2.kra
-Name43=akari (c) with sketch.kra
-Name44=pesona member hyperion.kra
-Name45=3rd page.png
-Name46=hanako milady.kra
-Name47=hanako 4th anniv with sketch.kra
-Name48=akari (c).kra
-Name49=serika birthday.kra
-Name5=Underground_Dweller_00.kra
-Name50=ami (c).kra
-Name51=hanako cat new s1.kra
-Name52=hanacursor.kra
-Name53=cheese hoshino.kra
-Name54=arc ship.kra
-Name55=eepy hanako.kra
-Name56=hanako 4th anniv.kra
-Name57=3rd page.kra
-Name58=the seia.kra
-Name59=2nd page.kra
-Name6=0017.png
-Name60=silhouette.kra
-Name61=gesture.kra
-Name62=4d90caafeec8c8deef38e588fb369b18.kra
-Name63=elia donut.kra
-Name64=front.kra
-Name65=hanako white dress.kra
-Name66=hand.kra
-Name67=hanako drinking lemon s1.kra
-Name68=3-4 head.kra
-Name69=maurice.kra
-Name7=mouth.kra
-Name70=sphere.kra
-Name71=painting.kra
-Name72=edges.kra
-Name73=hanako cat new.kra
-Name74=indirect kiss2.kra
-Name75=you did great (copy 1).kra
-Name76=hangout with hanako.kra
-Name77=hangout with hanako22222.kra
-Name78=hangout with hanako2.kra
-Name79=mimori s.kra
-Name8=blush.png
-Name80=torso.kra
-Name81=hanako drinking lemon.kra
-Name82=you did great.kra
-Name83=indirect kiss1.kra
-Name84=Screenshot_20260116_184030.jpg
-Name85=arm bone.kra
-Name86=ultra synergy matrix.kra
-Name87=hanako bday art.kra
-Name88=togif (1).gif
-Name89=saki-chan.kra
-Name9=blush.kra
-Name90=val.kra
-Name91=brandon2.kra
-Name92=brandon1.kra
-Name93=hanako with shia pose wp.kra
-Name94=pic.png
-Name95=mirinae (copy 1).kra
-Name96=mirinae.kra
-Name97=arc ship.png
-Name98=hanako with shia pose.kra
-Name99=gail.kra
+File1[$e]=$HOME/.local/share/lakeside-rice-loader/rice-sets/HyprArchive/.config/eww/assets/menu.png
+File2[$e]=$HOME/Drawings/a normal uno game/a normal uno game 2.kra
+File3[$e]=$HOME/Drawings/a normal uno game/a normal uno game 1.kra
+Name1=menu.png
+Name2=a normal uno game 2.kra
+Name3=a normal uno game 1.kra
 maxRecentFileItems=100
 
 [SelectedTags]
@@ -975,13 +837,19 @@ workspaces=All
 
 [SvgSymbolCollection]
 currentCollection=0
+displayThumbnails=false
+iconSize=20
 
 [SvgTextTool]
 Geometry=AdnQywADAAAAAABrAAAAgwAAA/gAAAKCAAAAawAAAIMAAAP4AAACggAAAAAAAAAABVYAAABrAAAAgwAAA/gAAAKC
+cssStylePresetName=
 defaultAlignment=1
 defaultFont=Patrick Hand
 defaultLetterSpacing=0.1
 defaultSize=14
+pasteRichtTextByDefault=false
+useCurrentTextProperties=true
+useVisualBidiCursor=false
 windowState=AAAA/wAAAAD9AAAAAAAAA44AAAFxAAAABAAAAAQAAAAIAAAACPwAAAADAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAAAAAAAgAAAAEAAAAYAGYAbwBuAHQAUwBlAHQAdABpAG4AZwBzAQAAAAD/////AAAAAAAAAAAAAAACAAAAAQAAABQAZgBvAHIAbQBhAHQAdABpAG4AZwEAAAAA/////wAAAAAAAAAA
 
 [TemplateChooserDialog]
@@ -994,6 +862,7 @@ LastReturnType=Custom Document
 colorSelectorConfiguration=2|4|8|2
 customSelectorBackgroundColor=160,160,164
 gamma=2.2
+lastUsedColorsPerDocument=false
 lumaG=0.7152
 lumaR=0.2126
 minimalShadeSelectorLineConfig=0|0.2|0|0|0|0|0;1|0|1|1|0|0|0;2|0|-1|1|0|0|0
@@ -1009,6 +878,9 @@ Last Used=<!DOCTYPE params>\n<params version="1">\n <param name="halfHeight" typ
 [colorbalance_filter_bookmarks]
 Last Used=<!DOCTYPE params>\n<params version="0">\n <param name="cyan_red_highlights" type="internal">0</param>\n <param name="cyan_red_midtones" type="internal">0</param>\n <param name="cyan_red_shadows" type="internal">0</param>\n <param name="magenta_green_highlights" type="internal">0</param>\n <param name="magenta_green_midtones" type="internal">0</param>\n <param name="magenta_green_shadows" type="internal">0</param>\n <param name="preserve_luminosity" type="internal">true</param>\n <param name="yellow_blue_highlights" type="internal">0</param>\n <param name="yellow_blue_midtones" type="internal">0</param>\n <param name="yellow_blue_shadows" type="internal">0</param>\n</params>\n
 
+[colortoalpha_filter_bookmarks]
+Last Used=<!DOCTYPE params>\n<params version="1">\n <param name="targetcolor" type="internal">#f3f5f4</param>\n <param name="threshold" type="internal">50</param>\n</params>\n
+
 [crashprevention]
 CreatingCanvas=false
 
@@ -1020,13 +892,13 @@ forceLodMode=true
 showPreview=true
 
 [gaussian blur_filter_bookmarks]
-Last Used=<!DOCTYPE params>\n<params version="1">\n <param name="horizRadius" type="internal">14.41</param>\n <param name="lockAspect" type="internal">true</param>\n <param name="vertRadius" type="internal">14.41</param>\n</params>\n
+Last Used=<!DOCTYPE params>\n<params version="1">\n <param name="horizRadius" type="internal">25.03</param>\n <param name="lockAspect" type="internal">true</param>\n <param name="vertRadius" type="internal">25.03</param>\n</params>\n
 
 [halftone_filter_bookmarks]
 Last Used=<!DOCTYPE params>\n<params version="1">\n <param name="RGBA_channel0_background_color" type="color"><![CDATA[<!DOCTYPE color>\n<color>\n <RGB space="sRGB-elle-V2-srgbtrc.icc" r="1" g="1" b="1"/>\n</color>\n]]></param>\n <param name="RGBA_channel0_background_opacity" type="internal">100</param>\n <param name="RGBA_channel0_foreground_color" type="color"><![CDATA[<!DOCTYPE color>\n<color>\n <RGB space="sRGB-elle-V2-srgbtrc.icc" r="0" g="0" b="0"/>\n</color>\n]]></param>\n <param name="RGBA_channel0_foreground_opacity" type="internal">100</param>\n <param name="RGBA_channel0_generator" type="string"><![CDATA[screentone]]></param>\n <param name="RGBA_channel0_generator_screentone_align_to_pixel_grid" type="internal">true</param>\n <param name="RGBA_channel0_generator_screentone_align_to_pixel_grid_x" type="internal">1</param>\n <param name="RGBA_channel0_generator_screentone_align_to_pixel_grid_y" type="internal">1</param>\n <param name="RGBA_channel0_generator_screentone_background_color" type="color"><![CDATA[<!DOCTYPE color>\n<color>\n <RGB space="sRGB-elle-V2-srgbtrc.icc" r="1" g="1" b="1"/>\n</color>\n]]></param>\n <param name="RGBA_channel0_generator_screentone_background_opacity" type="internal">100</param>\n <param name="RGBA_channel0_generator_screentone_brightness" type="internal">50</param>\n <param name="RGBA_channel0_generator_screentone_constrain_frequency" type="internal">true</param>\n <param name="RGBA_channel0_generator_screentone_contrast" type="internal">50</param>\n <param name="RGBA_channel0_generator_screentone_equalization_mode" type="internal">2</param>\n <param name="RGBA_channel0_generator_screentone_foreground_color" type="color"><![CDATA[<!DOCTYPE color>\n<color>\n <RGB space="sRGB-elle-V2-srgbtrc.icc" r="0" g="0" b="0"/>\n</color>\n]]></param>\n <param name="RGBA_channel0_generator_screentone_foreground_opacity" type="internal">100</param>\n <param name="RGBA_channel0_generator_screentone_frequency_x" type="internal">30</param>\n <param name="RGBA_channel0_generator_screentone_frequency_y" type="internal">30</param>\n <param name="RGBA_channel0_generator_screentone_interpolation" type="internal">1</param>\n <param name="RGBA_channel0_generator_screentone_invert" type="internal">false</param>\n <param name="RGBA_channel0_generator_screentone_keep_size_square" type="internal">true</param>\n <param name="RGBA_channel0_generator_screentone_pattern" type="internal">0</param>\n <param name="RGBA_channel0_generator_screentone_position_x" type="internal">0</param>\n <param name="RGBA_channel0_generator_screentone_position_y" type="internal">0</param>\n <param name="RGBA_channel0_generator_screentone_resolution" type="internal">300</param>\n <param name="RGBA_channel0_generator_screentone_rotation" type="internal">15</param>\n <param name="RGBA_channel0_generator_screentone_shape" type="internal">0</param>\n <param name="RGBA_channel0_generator_screentone_shear_x" type="internal">0</param>\n <param name="RGBA_channel0_generator_screentone_shear_y" type="internal">0</param>\n <param name="RGBA_channel0_generator_screentone_size_mode" type="internal">0</param>\n <param name="RGBA_channel0_generator_screentone_size_x" type="internal">10</param>\n <param name="RGBA_channel0_generator_screentone_size_y" type="internal">10</param>\n <param name="RGBA_channel0_generator_screentone_units" type="internal">0</param>\n <param name="RGBA_channel0_hardness" type="internal">80</param>\n <param name="RGBA_channel0_invert" type="internal">false</param>\n <param name="RGBA_channel1_background_color" type="color"><![CDATA[<!DOCTYPE color>\n<color>\n <RGB space="sRGB-elle-V2-srgbtrc.icc" r="1" g="1" b="1"/>\n</color>\n]]></param>\n <param name="RGBA_channel1_background_opacity" type="internal">100</param>\n <param name="RGBA_channel1_foreground_color" type="color"><![CDATA[<!DOCTYPE color>\n<color>\n <RGB space="sRGB-elle-V2-srgbtrc.icc" r="0" g="0" b="0"/>\n</color>\n]]></param>\n <param name="RGBA_channel1_foreground_opacity" type="internal">100</param>\n <param name="RGBA_channel1_generator" type="string"><![CDATA[screentone]]></param>\n <param name="RGBA_channel1_generator_screentone_align_to_pixel_grid" type="internal">true</param>\n <param name="RGBA_channel1_generator_screentone_align_to_pixel_grid_x" type="internal">1</param>\n <param name="RGBA_channel1_generator_screentone_align_to_pixel_grid_y" type="internal">1</param>\n <param name="RGBA_channel1_generator_screentone_background_color" type="color"><![CDATA[<!DOCTYPE color>\n<color>\n <RGB space="sRGB-elle-V2-srgbtrc.icc" r="1" g="1" b="1"/>\n</color>\n]]></param>\n <param name="RGBA_channel1_generator_screentone_background_opacity" type="internal">100</param>\n <param name="RGBA_channel1_generator_screentone_brightness" type="internal">50</param>\n <param name="RGBA_channel1_generator_screentone_constrain_frequency" type="internal">true</param>\n <param name="RGBA_channel1_generator_screentone_contrast" type="internal">50</param>\n <param name="RGBA_channel1_generator_screentone_equalization_mode" type="internal">2</param>\n <param name="RGBA_channel1_generator_screentone_foreground_color" type="color"><![CDATA[<!DOCTYPE color>\n<color>\n <RGB space="sRGB-elle-V2-srgbtrc.icc" r="0" g="0" b="0"/>\n</color>\n]]></param>\n <param name="RGBA_channel1_generator_screentone_foreground_opacity" type="internal">100</param>\n <param name="RGBA_channel1_generator_screentone_frequency_x" type="internal">30</param>\n <param name="RGBA_channel1_generator_screentone_frequency_y" type="internal">30</param>\n <param name="RGBA_channel1_generator_screentone_interpolation" type="internal">1</param>\n <param name="RGBA_channel1_generator_screentone_invert" type="internal">false</param>\n <param name="RGBA_channel1_generator_screentone_keep_size_square" type="internal">true</param>\n <param name="RGBA_channel1_generator_screentone_pattern" type="internal">0</param>\n <param name="RGBA_channel1_generator_screentone_position_x" type="internal">0</param>\n <param name="RGBA_channel1_generator_screentone_position_y" type="internal">0</param>\n <param name="RGBA_channel1_generator_screentone_resolution" type="internal">300</param>\n <param name="RGBA_channel1_generator_screentone_rotation" type="internal">45</param>\n <param name="RGBA_channel1_generator_screentone_shape" type="internal">0</param>\n <param name="RGBA_channel1_generator_screentone_shear_x" type="internal">0</param>\n <param name="RGBA_channel1_generator_screentone_shear_y" type="internal">0</param>\n <param name="RGBA_channel1_generator_screentone_size_mode" type="internal">0</param>\n <param name="RGBA_channel1_generator_screentone_size_x" type="internal">10</param>\n <param name="RGBA_channel1_generator_screentone_size_y" type="internal">10</param>\n <param name="RGBA_channel1_generator_screentone_units" type="internal">0</param>\n <param name="RGBA_channel1_hardness" type="internal">80</param>\n <param name="RGBA_channel1_invert" type="internal">false</param>\n <param name="RGBA_channel2_background_color" type="color"><![CDATA[<!DOCTYPE color>\n<color>\n <RGB space="sRGB-elle-V2-srgbtrc.icc" r="1" g="1" b="1"/>\n</color>\n]]></param>\n <param name="RGBA_channel2_background_opacity" type="internal">100</param>\n <param name="RGBA_channel2_foreground_color" type="color"><![CDATA[<!DOCTYPE color>\n<color>\n <RGB space="sRGB-elle-V2-srgbtrc.icc" r="0" g="0" b="0"/>\n</color>\n]]></param>\n <param name="RGBA_channel2_foreground_opacity" type="internal">100</param>\n <param name="RGBA_channel2_generator" type="string"><![CDATA[screentone]]></param>\n <param name="RGBA_channel2_generator_screentone_align_to_pixel_grid" type="internal">true</param>\n <param name="RGBA_channel2_generator_screentone_align_to_pixel_grid_x" type="internal">1</param>\n <param name="RGBA_channel2_generator_screentone_align_to_pixel_grid_y" type="internal">1</param>\n <param name="RGBA_channel2_generator_screentone_background_color" type="color"><![CDATA[<!DOCTYPE color>\n<color>\n <RGB space="sRGB-elle-V2-srgbtrc.icc" r="1" g="1" b="1"/>\n</color>\n]]></param>\n <param name="RGBA_channel2_generator_screentone_background_opacity" type="internal">100</param>\n <param name="RGBA_channel2_generator_screentone_brightness" type="internal">50</param>\n <param name="RGBA_channel2_generator_screentone_constrain_frequency" type="internal">true</param>\n <param name="RGBA_channel2_generator_screentone_contrast" type="internal">50</param>\n <param name="RGBA_channel2_generator_screentone_equalization_mode" type="internal">2</param>\n <param name="RGBA_channel2_generator_screentone_foreground_color" type="color"><![CDATA[<!DOCTYPE color>\n<color>\n <RGB space="sRGB-elle-V2-srgbtrc.icc" r="0" g="0" b="0"/>\n</color>\n]]></param>\n <param name="RGBA_channel2_generator_screentone_foreground_opacity" type="internal">100</param>\n <param name="RGBA_channel2_generator_screentone_frequency_x" type="internal">30</param>\n <param name="RGBA_channel2_generator_screentone_frequency_y" type="internal">30</param>\n <param name="RGBA_channel2_generator_screentone_interpolation" type="internal">1</param>\n <param name="RGBA_channel2_generator_screentone_invert" type="internal">false</param>\n <param name="RGBA_channel2_generator_screentone_keep_size_square" type="internal">true</param>\n <param name="RGBA_channel2_generator_screentone_pattern" type="internal">0</param>\n <param name="RGBA_channel2_generator_screentone_position_x" type="internal">0</param>\n <param name="RGBA_channel2_generator_screentone_position_y" type="internal">0</param>\n <param name="RGBA_channel2_generator_screentone_resolution" type="internal">300</param>\n <param name="RGBA_channel2_generator_screentone_rotation" type="internal">75</param>\n <param name="RGBA_channel2_generator_screentone_shape" type="internal">0</param>\n <param name="RGBA_channel2_generator_screentone_shear_x" type="internal">0</param>\n <param name="RGBA_channel2_generator_screentone_shear_y" type="internal">0</param>\n <param name="RGBA_channel2_generator_screentone_size_mode" type="internal">0</param>\n <param name="RGBA_channel2_generator_screentone_size_x" type="internal">10</param>\n <param name="RGBA_channel2_generator_screentone_size_y" type="internal">10</param>\n <param name="RGBA_channel2_generator_screentone_units" type="internal">0</param>\n <param name="RGBA_channel2_hardness" type="internal">80</param>\n <param name="RGBA_channel2_invert" type="internal">false</param>\n <param name="alpha_background_color" type="color"><![CDATA[<!DOCTYPE color>\n<color>\n <RGB space="sRGB-elle-V2-srgbtrc.icc" r="1" g="1" b="1"/>\n</color>\n]]></param>\n <param name="alpha_background_opacity" type="internal">100</param>\n <param name="alpha_foreground_color" type="color"><![CDATA[<!DOCTYPE color>\n<color>\n <RGB space="sRGB-elle-V2-srgbtrc.icc" r="0" g="0" b="0"/>\n</color>\n]]></param>\n <param name="alpha_foreground_opacity" type="internal">100</param>\n <param name="alpha_generator" type="string"><![CDATA[screentone]]></param>\n <param name="alpha_generator_screentone_align_to_pixel_grid" type="internal">true</param>\n <param name="alpha_generator_screentone_align_to_pixel_grid_x" type="internal">1</param>\n <param name="alpha_generator_screentone_align_to_pixel_grid_y" type="internal">1</param>\n <param name="alpha_generator_screentone_background_color" type="color"><![CDATA[<!DOCTYPE color>\n<color>\n <RGB space="sRGB-elle-V2-srgbtrc.icc" r="1" g="1" b="1"/>\n</color>\n]]></param>\n <param name="alpha_generator_screentone_background_opacity" type="internal">100</param>\n <param name="alpha_generator_screentone_brightness" type="internal">50</param>\n <param name="alpha_generator_screentone_constrain_frequency" type="internal">true</param>\n <param name="alpha_generator_screentone_contrast" type="internal">50</param>\n <param name="alpha_generator_screentone_equalization_mode" type="internal">2</param>\n <param name="alpha_generator_screentone_foreground_color" type="color"><![CDATA[<!DOCTYPE color>\n<color>\n <RGB space="sRGB-elle-V2-srgbtrc.icc" r="0" g="0" b="0"/>\n</color>\n]]></param>\n <param name="alpha_generator_screentone_foreground_opacity" type="internal">100</param>\n <param name="alpha_generator_screentone_frequency_x" type="internal">30</param>\n <param name="alpha_generator_screentone_frequency_y" type="internal">30</param>\n <param name="alpha_generator_screentone_interpolation" type="internal">1</param>\n <param name="alpha_generator_screentone_invert" type="internal">false</param>\n <param name="alpha_generator_screentone_keep_size_square" type="internal">true</param>\n <param name="alpha_generator_screentone_pattern" type="internal">0</param>\n <param name="alpha_generator_screentone_position_x" type="internal">0</param>\n <param name="alpha_generator_screentone_position_y" type="internal">0</param>\n <param name="alpha_generator_screentone_resolution" type="internal">300</param>\n <param name="alpha_generator_screentone_rotation" type="internal">45</param>\n <param name="alpha_generator_screentone_shape" type="internal">0</param>\n <param name="alpha_generator_screentone_shear_x" type="internal">0</param>\n <param name="alpha_generator_screentone_shear_y" type="internal">0</param>\n <param name="alpha_generator_screentone_size_mode" type="internal">0</param>\n <param name="alpha_generator_screentone_size_x" type="internal">10</param>\n <param name="alpha_generator_screentone_size_y" type="internal">10</param>\n <param name="alpha_generator_screentone_units" type="internal">0</param>\n <param name="alpha_hardness" type="internal">80</param>\n <param name="alpha_invert" type="internal">false</param>\n <param name="color_model_id" type="string"><![CDATA[RGBA]]></param>\n <param name="intensity_background_color" type="color"><![CDATA[<!DOCTYPE color>\n<color>\n <RGB space="sRGB-elle-V2-srgbtrc.icc" r="1" g="1" b="1"/>\n</color>\n]]></param>\n <param name="intensity_background_opacity" type="internal">100</param>\n <param name="intensity_foreground_color" type="color"><![CDATA[<!DOCTYPE color>\n<color>\n <RGB space="sRGB-elle-V2-srgbtrc.icc" r="0" g="0" b="0"/>\n</color>\n]]></param>\n <param name="intensity_foreground_opacity" type="internal">100</param>\n <param name="intensity_generator" type="string"><![CDATA[screentone]]></param>\n <param name="intensity_generator_screentone_align_to_pixel_grid" type="internal">true</param>\n <param name="intensity_generator_screentone_align_to_pixel_grid_x" type="internal">1</param>\n <param name="intensity_generator_screentone_align_to_pixel_grid_y" type="internal">1</param>\n <param name="intensity_generator_screentone_background_color" type="color"><![CDATA[<!DOCTYPE color>\n<color>\n <RGB space="sRGB-elle-V2-srgbtrc.icc" r="1" g="1" b="1"/>\n</color>\n]]></param>\n <param name="intensity_generator_screentone_background_opacity" type="internal">100</param>\n <param name="intensity_generator_screentone_brightness" type="internal">50</param>\n <param name="intensity_generator_screentone_constrain_frequency" type="internal">true</param>\n <param name="intensity_generator_screentone_contrast" type="internal">50</param>\n <param name="intensity_generator_screentone_equalization_mode" type="internal">2</param>\n <param name="intensity_generator_screentone_foreground_color" type="color"><![CDATA[<!DOCTYPE color>\n<color>\n <RGB space="sRGB-elle-V2-srgbtrc.icc" r="0" g="0" b="0"/>\n</color>\n]]></param>\n <param name="intensity_generator_screentone_foreground_opacity" type="internal">100</param>\n <param name="intensity_generator_screentone_frequency_x" type="internal">15</param>\n <param name="intensity_generator_screentone_frequency_y" type="internal">15</param>\n <param name="intensity_generator_screentone_interpolation" type="internal">1</param>\n <param name="intensity_generator_screentone_invert" type="internal">false</param>\n <param name="intensity_generator_screentone_keep_size_square" type="internal">true</param>\n <param name="intensity_generator_screentone_pattern" type="internal">0</param>\n <param name="intensity_generator_screentone_position_x" type="internal">0</param>\n <param name="intensity_generator_screentone_position_y" type="internal">0</param>\n <param name="intensity_generator_screentone_resolution" type="internal">300</param>\n <param name="intensity_generator_screentone_rotation" type="internal">45</param>\n <param name="intensity_generator_screentone_shape" type="internal">0</param>\n <param name="intensity_generator_screentone_shear_x" type="internal">0</param>\n <param name="intensity_generator_screentone_shear_y" type="internal">0</param>\n <param name="intensity_generator_screentone_size_mode" type="internal">0</param>\n <param name="intensity_generator_screentone_size_x" type="internal">20</param>\n <param name="intensity_generator_screentone_size_y" type="internal">20</param>\n <param name="intensity_generator_screentone_units" type="internal">0</param>\n <param name="intensity_hardness" type="internal">80</param>\n <param name="intensity_invert" type="internal">false</param>\n <param name="mode" type="string"><![CDATA[intensity]]></param>\n</params>\n
 
 [hsvadjustment_filter_bookmarks]
-Last Used=<!DOCTYPE params>\n<params version="0">\n <param type="internal" name="colorize">false</param>\n <param type="internal" name="compatibilityMode">false</param>\n <param type="internal" name="h">0</param>\n <param type="internal" name="s">15</param>\n <param type="internal" name="type">1</param>\n <param type="internal" name="v">0</param>\n</params>\n
+Last Used=<!DOCTYPE params>\n<params version="0">\n <param name="colorize" type="internal">false</param>\n <param name="compatibilityMode" type="internal">false</param>\n <param name="h" type="internal">0</param>\n <param name="s" type="internal">0</param>\n <param name="type" type="internal">1</param>\n <param name="v" type="internal">10</param>\n</params>\n
 
 [invert_filter_bookmarks]
 Last Used=<!DOCTYPE params>\n<params version="0"/>\n

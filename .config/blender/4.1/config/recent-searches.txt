@@ -63,7 +63,6 @@ body.001
 MCprep ▸ Effects Spawner ▸ Explosion
 Mesh ▸ Operations ▸ Subdivide Mesh
 Unassigned ▸ Geometry Nodes
-Utilities ▸ Math
   koyukiAction
 Texture ▸ Environment Texture
    glow.001
@@ -251,7 +250,6 @@ Group
  0 Tiles 01
   utaha hair
   root
-  sensei.001
   utaha.001
    shoes
   hair.001
@@ -294,7 +292,6 @@ Texture ▸ Multiple Images
    suit dark
    suit dark darker
 Select ▸ Select All by Trait ▸ Loose Geometry
-Texture ▸ Noise Texture
   body.001
   1 hair.001
   1 hair.002
@@ -403,13 +400,11 @@ Utilities ▸ Map Range
   ayane
 control reference.004
    World
-Output ▸ File Output
 Filter ▸ Blur ▸ Defocus
 Filter ▸ Denoise
 Input ▸ Image
    waylake (vanz style) [D4594E4].png
 Filter ▸ Blur ▸ Blur
-Color ▸ Color Ramp
 Vector ▸ Bump
 Color ▸ Invert Color
   height
@@ -450,13 +445,10 @@ dance2
   azusa switch 3
   azusa switch 4
   azoos expression
-Scale
 0 aoba
   aoba.001
   bone_root
   elia
-pupils, mouth, and settings
-Color ▸ Mix ▸ Alpha Over
 Utilities ▸ Normalize
 bg
 shadow
@@ -467,7 +459,6 @@ mist sphere
   hanako 4th anniv9
 Shader ▸ Diffuse BSDF
   Geometry Nodes
-Point ▸Group|Float
 Color ▸ Brightness/Contrast
 Instances ▸ Translate Instances
 Point ▸displacement|Float
@@ -494,8 +485,6 @@ Color ▸ RGB Curves
   nozomiAction.001
   sequence
 Color ▸ Adjust ▸ Hue/Saturation/Value
-Color ▸ Adjust ▸ Brightness/Contrast
-Color ▸ Adjust ▸ Exposure
   hanako.001
 F bone_root|CH0209_Formation_Pickup|Base Layer
   hanako s
@@ -506,7 +495,6 @@ Camera
 regular
   senseiAction.001
 Deform ▸ Surface Deform
-Generate ▸ Solidify
    Mouth
   Kotama_Original
 bone_skirtB_L_03
@@ -547,19 +535,15 @@ Group ▸ Group Input
 Curve ▸ Operations ▸ Trim Curve
 Curve ▸ Operations ▸ Fill Curve
 Generate ▸ Subdivision Surface
-Generate ▸ Wireframe
 Utilities ▸ Math ▸ Boolean Math
 Utilities ▸ Text ▸ Join Strings
-Geometry ▸ Join Geometry
 Curve ▸ Primitives ▸ Curve Circle
 Utilities ▸ Math ▸ Math
   focus target
  F World.001
  F World
 Available
-Color ▸ Alpha Convert
 Color ▸ Mix ▸ Separate Color
-Location & Rotation
 0 mouth2
   mouth
 0 transition
@@ -585,47 +569,34 @@ F mouth
   hair
    Wood02_basecolor.tga
   left side scene props
-  Scene.001
 Shader ▸ Transparent BSDF
-   Material
-  Scene
   Scene.002
    Mouth.001
  0 Mouth
    0001.png
   CH0245_Body
-
   CH0245_Mesh
   control reference
-Generate ▸ Array
 Geometry Nodes ▸ Displacement
-Location
    imf
 main
 imf
-   skin
 MCprep ▸ Item Spawner ▸ mace
   Thomas_rig
 EyesTracker
-  sensei
 Bip001 Pelvis
-Generate ▸ Boolean
 Input ▸ Light Path
 Shader ▸ Mix Shader
 Input ▸ Fresnel
-Converter ▸ Color Ramp
 Color ▸ Hue/Saturation/Value
 Color ▸ Mix Color
 Input ▸ RGB
 Shader ▸ Emission
-Rotation
-  main
   aris
   sq
 Add ▸ Camera
  0 World.002
  0 World.001
- 0 World.003
    cur outer
    cur inner
   default
@@ -635,4 +606,58 @@ Input ▸ Image Sequence
 Input ▸ Mask
 Mask ▸ Box Mask
 Color ▸ Mix ▸ Mix Color
+Generate ▸ Solidify
+  sensei
+   CH0200_Body.png
+   pink
+  me
+   World.002
+   skin
+   skin.001
+   Azusa_Original_Hair
+  sensei.001
+0 sensei.002
+  intro.001
+  intro
+Location
+Rotation
+   hair.001
+   light pink
+   hair.004
+  main
+  outro
+   Material
+  Cube.007
+Location & Rotation
+Scale
+Generate ▸ Array
+Texture ▸ Noise Texture
+Converter ▸ Color Ramp
+ 0 World.003
+  Scene.001
+  Scene
+Generate ▸ Boolean
+Point ▸ Distribute Points on Faces
+Instances ▸ Instance on Points
+Input ▸ Scene ▸ Object Info
+Geometry ▸ Geometry to Instance
+Geometry ▸ Join Geometry
+Point ▸Group|Float
+   World.003
+ 0 World.004
+pupils, mouth, and settings
+
+Generate ▸ Wireframe
+Output ▸ File Output
+Utilities ▸ Math
 Color ▸ Set Alpha
+Input ▸ Texture
+   grad
+Color ▸ Color Ramp
+Transform ▸ Rotate
+Transform ▸ Transform
+Transform ▸ Scale
+Color ▸ Adjust ▸ Brightness/Contrast
+Color ▸ Adjust ▸ Exposure
+Color ▸ Mix ▸ Alpha Over
+Color ▸ Alpha Convert
