@@ -1,4 +1,12 @@
-![desktop](https://github.com/PigmanBruh/dotfiles/assets/87263998/bb8cbcd4-a789-44cf-a9ac-773b1aae7486)
-## Welcome to Waylake's Dotfiles Repository
+![desktop-hyprarchive](https://raw.githubusercontent.com/WaylakeAnimations/dotfiles/refs/heads/main/rice-screenshots/desktop-hyprarchive.png)
+## Waylake's Dotfiles
+umm... hi there, welcome to my dotfiles repo :3...
 
-This set of configuration is made with Hyprland (and Hypr ecosystem) in mind... 
+Some of these configs are written with Hyprland in mind...
+
+Note: Screenshots are taken with HyprArchive applied, which exist in a separate repo...
+
+## More Screenshots
+![term](https://raw.githubusercontent.com/WaylakeAnimations/dotfiles/refs/heads/main/rice-screenshots/term.png)
+
+todo: add more
