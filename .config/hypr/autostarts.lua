@@ -20,4 +20,6 @@ hl.on("hyprland.start", function ()
   hl.exec_cmd("systemctl --user start elephant")
 
   hl.exec_cmd("batsignal -w 20 -c 15 -d 10 -f 90 -e -b")
+  
+  hl.exec_cmd("kmonad ~/.config/kmonad/du.kbd")
 end)
