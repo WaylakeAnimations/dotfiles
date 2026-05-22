@@ -14,5 +14,6 @@ hl.window_rule({ match = { class = "thunar" },    opacity = opc })
 hl.window_rule({ match = { class = "engrampa" },  opacity = opc })
 hl.window_rule({ match = { class = "nwg-look" },  opacity = opc })
 
+hl.window_rule({ match = { title = ".* — Krita" },  opacity = opc })
 
 hl.window_rule({ match = { class = "org.xfce.mousepad" }, opacity = opc })

@@ -5,15 +5,14 @@ ARG="$1"
 if [[ "$ARG" == "-h" ]]; then
     printf "
             Waylake's darkwindow windowrule maker
-            (writes to darkwindow.conf by default)
+            (writes to darkwindow.lua by default)
 
   -c  Copy to clipboard instead of directly writing to file
-  -g  Write to darkwindow-gtk-theme-dependent.conf instead
   -h  Display this text\n\n"
     exit
 fi
 
-SCRIPTDIR=$(dirname "$(readlink -f "$0")")
+cd $(dirname "$(readlink -f "$0")")
 echo Change your active window...
 
 handle() {
@@ -46,17 +45,14 @@ handle() {
             BLUEF=$BLUE
         fi
 
-        RES="darkwindow:shade chromakey bkg=[$REDF $GREENF $BLUEF] similarity=\$sim amount=\$amt targetOpacity=\$app_opct"
+        RES="\nhl.window_rule({ match = { class = \"$CLASS\" },\n    [\"darkwindow:shade\"] = \"chromakey bkg=[$REDF $GREENF $BLUEF]\" .. settings })\n"
 
         if [[ "$ARG" == "-c" ]]; then
-            echo "$RES"
-            wl-copy "$RES"
-
-        elif [[ "$ARG" == "-g" ]]; then
-            echo "windowrule = match:class $CLASS, $RES" | tee -a "$SCRIPTDIR/darkwindow-gtk-theme-dependent.conf" > echo /dev/null
+            printf "$RES"
+            wl-copy "$(printf $RES)"
 
         else
-            echo "windowrule = match:class $CLASS, $RES" | tee -a "$SCRIPTDIR/darkwindow.conf"> echo /dev/null
+            printf "$RES" | tee -a "darkwindow.lua" > /dev/null
 
         fi
         exit ;;

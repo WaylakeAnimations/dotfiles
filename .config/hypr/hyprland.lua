@@ -1,7 +1,7 @@
 require("visuals")
 require("animations")
 require("autostarts")
-require("transparency")
+require("darkwindow")
 require("apps-and-keybinds")
 require("monitor-and-env")
 require("rules")
