@@ -3,7 +3,7 @@
 ----------------------
 
 hl.on("hyprland.start", function () 
-  -- hl.exec_cmd("hyprctl plugin load ~/Hypr-DarkWindow/out/hypr-darkwindow.so")
+  hl.exec_cmd("hyprctl plugin load ~/hyprland-related-stuff/Hypr-DarkWindow/out/hypr-darkwindow.so")
   hl.exec_cmd("bash ~/.local/share/lakeside-rice-loader/lsrl.sh -r")
 
   hl.exec_cmd("/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1")

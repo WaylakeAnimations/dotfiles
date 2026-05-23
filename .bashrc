@@ -1,6 +1,6 @@
 # Enable the subsequent settings only in interactive sessions
 case $- in
-  *i*) ;;
+*i*) ;;
     *) return;;
 esac
 
@@ -154,3 +154,6 @@ alias fh='clear ; fastfetch -c ~/.config/fastfetch/config-lite.jsonc'
 # Created by `pipx` on 2026-04-16 07:58:11
 export PATH="$PATH:/home/Waylake/.local/bin"
 export EDITOR='nano'
+
+# HyprArchive path
+export HYPRARCHIVE_DIR='/home/Waylake/.local/share/lakeside-rice-loader/rice-sets/HyprArchive'
