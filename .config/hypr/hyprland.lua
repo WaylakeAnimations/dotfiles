@@ -4,6 +4,7 @@ require("autostarts")
 require("darkwindow")
 require("apps-and-keybinds")
 require("monitor-and-env")
+require("thunar")
 require("rules")
 require("misc")
 

@@ -17,12 +17,11 @@ local shutdown_menu = "walker --provider menus:hyarc-power-menu --hideqa -N -n -
 --------------------
 
 local mainMod = "SUPER"
-mainModG = "SUPER"
 
 -- Launcher and Apps --
 hl.bind(mainMod .. " + R",      hl.dsp.exec_cmd(pmenu))
 hl.bind(mainMod .. " + D",      hl.dsp.exec_cmd(menu))
-hl.bind(mainMod .. " + E",      hl.dsp.exec_cmd(fileManager))
+-- hl.bind(mainMod .. " + E",      hl.dsp.exec_cmd(fileManager))
 hl.bind(mainMod .. " + RETURN", hl.dsp.exec_cmd(terminal))
 
 -- Windowing --
