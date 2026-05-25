@@ -1,26 +1,43 @@
 hl.bind("SUPER + E", function() fileManager() end)
+file_manager_workspace = "7"
 
 hl.window_rule({
     match = { class = "thunar", title = ".* - Thunar" },
-    workspace = "7",
+    workspace = file_manager_workspace,
     float = true,
     size = {"(monitor_w*0.96)", "(monitor_h*0.96)"},
     center = true
 })
 
 function fileManager()
-    local w = hl.get_window("title:.* - Thunar")
+    local t = hl.get_window("title:.* - Thunar")
+    local w = hl.get_active_window()
 
-    if w == nil then
-        local notif = "'Launching Thunar...' 'Get ready to be thrown to Workspace 7 when it opens...'"
+    if t == nil then
+        local notif = "'Launching Thunar...' 'Get ready to be thrown to Workspace " .. file_manager_workspace .. " when it opens...'"
         hl.dispatch(hl.dsp.exec_cmd("notify-send -i Thunar " .. notif .. " & thunar"))
+
+    -- prevent string.find from reading nil
+    elseif w ~= nil then
+
+        -- back to previous workspace if currently focused to thunar
+        if string.find(w.title, " - Thunar") then
+            hl.dispatch(function() back() end)
+
+        -- used when focused to any other window
+        else
+            hl.dispatch(hl.dsp.focus({ window = t }))
+        end
+
+    -- used when not focused to any window
     else
-        hl.dispatch(hl.dsp.focus({ window = w }))
+        hl.dispatch(hl.dsp.focus({ window = t }))
     end
 end
 
+-- auto jump to workspace when thunar opens
 hl.on("window.open", function(w)
-    if string.find(w.title, " - Thunar") ~= nil then
+    if string.find(w.title, " - Thunar") then
         hl.dispatch(hl.dsp.focus({ window = w }))
     end
 end)

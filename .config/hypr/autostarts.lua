@@ -10,7 +10,7 @@ hl.on("hyprland.start", function ()
   hl.exec_cmd("xhost +SI:localuser:root")
 
   hl.exec_cmd("/usr/bin/blueman-applet")
-  hl.exec_cmd("swaync -c ~/.config/swaync/config.json -s ~/.config/swaync/style.css")
+  -- hl.exec_cmd("swaync -c ~/.config/swaync/config.json -s ~/.config/swaync/style.css")
   hl.exec_cmd("nm-applet")
 
   hl.exec_cmd("gammastep -O 4500K")
