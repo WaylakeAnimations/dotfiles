@@ -20,7 +20,6 @@ F hanako action original
    New Project 7 [44C66F1].png
    New Project 7 [3FA22D6].png
   main scene
-  Bfont Regular
 0 Outfit Regular.001
    Material.007
 Edit ▸ Weighted Normal
@@ -64,7 +63,6 @@ MCprep ▸ Effects Spawner ▸ Explosion
 Mesh ▸ Operations ▸ Subdivide Mesh
 Unassigned ▸ Geometry Nodes
   koyukiAction
-Texture ▸ Environment Texture
    glow.001
  F Metal.001
  F Metal
@@ -81,7 +79,6 @@ Empty ▸ Plain Axes
 Add Modifier ▸ Geometry Nodes
 0 Geometry Nodes
 F Geometry Nodes
-ViewLayer
   Action.001
   EmptyAction
 base pose
@@ -296,7 +293,6 @@ Select ▸ Select All by Trait ▸ Loose Geometry
   1 hair.001
   1 hair.002
   1 hair
- 0 World
   1 hair.003
 Force Field ▸ Charge
 chip
@@ -316,7 +312,6 @@ Line Mask
 Main
 Converter ▸ Shader to RGB
    Hoshino
-Lines
    Black
 Texture ▸ Gradient Texture
  F regular
@@ -381,7 +376,6 @@ Converter ▸ Mix
  0 wood
    shield_base.metal
    shield steel
-Normals ▸ Smooth by Angle
 hat
   run
    hat.001
@@ -404,7 +398,6 @@ Filter ▸ Blur ▸ Defocus
 Filter ▸ Denoise
 Input ▸ Image
    waylake (vanz style) [D4594E4].png
-Filter ▸ Blur ▸ Blur
 Vector ▸ Bump
 Color ▸ Invert Color
   height
@@ -448,7 +441,6 @@ dance2
 0 aoba
   aoba.001
   bone_root
-  elia
 Utilities ▸ Normalize
 bg
 shadow
@@ -543,7 +535,6 @@ Utilities ▸ Math ▸ Math
  F World.001
  F World
 Available
-Color ▸ Mix ▸ Separate Color
 0 mouth2
   mouth
 0 transition
@@ -585,18 +576,13 @@ MCprep ▸ Item Spawner ▸ mace
   Thomas_rig
 EyesTracker
 Bip001 Pelvis
-Input ▸ Light Path
-Shader ▸ Mix Shader
 Input ▸ Fresnel
 Color ▸ Hue/Saturation/Value
 Color ▸ Mix Color
-Input ▸ RGB
 Shader ▸ Emission
   aris
   sq
 Add ▸ Camera
- 0 World.002
- 0 World.001
    cur outer
    cur inner
   default
@@ -605,8 +591,6 @@ Input ▸ Image Sequence
   hold
 Input ▸ Mask
 Mask ▸ Box Mask
-Color ▸ Mix ▸ Mix Color
-Generate ▸ Solidify
   sensei
    CH0200_Body.png
    pink
@@ -626,16 +610,13 @@ Rotation
    hair.004
   main
   outro
-   Material
   Cube.007
 Location & Rotation
 Scale
 Generate ▸ Array
 Texture ▸ Noise Texture
-Converter ▸ Color Ramp
  0 World.003
   Scene.001
-  Scene
 Generate ▸ Boolean
 Point ▸ Distribute Points on Faces
 Instances ▸ Instance on Points
@@ -645,19 +626,52 @@ Geometry ▸ Join Geometry
 Point ▸Group|Float
    World.003
  0 World.004
-pupils, mouth, and settings
 
 Generate ▸ Wireframe
 Output ▸ File Output
 Utilities ▸ Math
-Color ▸ Set Alpha
 Input ▸ Texture
    grad
-Color ▸ Color Ramp
 Transform ▸ Rotate
 Transform ▸ Transform
 Transform ▸ Scale
 Color ▸ Adjust ▸ Brightness/Contrast
 Color ▸ Adjust ▸ Exposure
-Color ▸ Mix ▸ Alpha Over
 Color ▸ Alpha Convert
+  Screenrecording_20260531_174601.mp4
+ 0 World
+ 0 World.001
+ 0 World.002
+Converter ▸ Color Ramp
+  Bfont Regular
+0 Georgia Bold Italic
+  elia
+pupils, mouth, and settings
+   Material.003
+   text
+   White
+Lines
+ViewLayer
+Color ▸ Color Ramp
+Color ▸ Set Alpha
+ViewLayer_001
+  URW Gothic Book Oblique
+  Georgia Regular
+  text
+  Scene
+Color ▸ Mix ▸ Alpha Over
+Color ▸ Mix ▸ Separate Color
+Color ▸ Mix ▸ Combine Color
+Transform ▸ Translate
+Mask ▸ Ellipse Mask
+Color ▸ Mix ▸ Mix Color
+Filter ▸ Blur ▸ Blur
+Generate ▸ Solidify
+   Material
+Normals ▸ Smooth by Angle
+Input ▸ Light Path
+Shader ▸ Mix Shader
+Texture ▸ Environment Texture
+ 0 Material.001
+   Material.001
+Input ▸ RGB

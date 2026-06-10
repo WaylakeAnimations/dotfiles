@@ -55,11 +55,11 @@
 	<video-files/>
 </action>
 <action>
-	<icon></icon>
-	<name>Copy filename</name>
+	<icon>localsend_app</icon>
+	<name>Send with LocalSend</name>
 	<submenu></submenu>
-	<unique-id>1777907106019844-1</unique-id>
-	<command>wl-copy %n</command>
+	<unique-id>1777965024881210-1</unique-id>
+	<command>localsend %N</command>
 	<description></description>
 	<range>*</range>
 	<patterns>*</patterns>
@@ -71,11 +71,22 @@
 	<video-files/>
 </action>
 <action>
-	<icon></icon>
-	<name>Send with LocalSend</name>
+	<icon>google-drive</icon>
+	<name>Mount Google Drive</name>
 	<submenu></submenu>
-	<unique-id>1777965024881210-1</unique-id>
-	<command>localsend %N</command>
+	<unique-id>1780597481152425-1</unique-id>
+	<command>rclone mount &apos;Google Drive&apos;: ~/Drive/</command>
+	<description></description>
+	<range>1-1</range>
+	<patterns>Drive</patterns>
+	<directories/>
+</action>
+<action>
+	<icon></icon>
+	<name>Copy filename</name>
+	<submenu></submenu>
+	<unique-id>1777907106019844-1</unique-id>
+	<command>wl-copy %n</command>
 	<description></description>
 	<range>*</range>
 	<patterns>*</patterns>

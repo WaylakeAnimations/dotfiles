@@ -1,12 +1,9 @@
 hl.bind("SUPER + E", function() fileManager() end)
-file_manager_workspace = "7"
+local file_manager_workspace = "7"
 
 hl.window_rule({
-    match = { class = "thunar", title = ".* - Thunar" },
+    match = { class = "thunar" },
     workspace = file_manager_workspace,
-    float = true,
-    size = {"(monitor_w*0.96)", "(monitor_h*0.96)"},
-    center = true
 })
 
 function fileManager()

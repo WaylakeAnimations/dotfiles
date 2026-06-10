@@ -1,4 +1,7 @@
 #!/bin/bash
 
-pacman -Qqen > ~/pkglist.txt
-pacman -Qqem > ~/pkglist_aur.txt
+rm "./pkgs.txt"
+rm "./pkgs_aur.txt"
+
+pacman -Qqen > "./pkgs.txt"
+pacman -Qqem > "./pkgs_aur.txt"

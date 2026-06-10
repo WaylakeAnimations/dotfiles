@@ -4,13 +4,14 @@
 /home/Waylake/Git Repos/urawa-hanako-cursor-theme/Urawa Hanako (3D) Source/
 /home/Waylake/Blender/projects/hanacursor/
 [Recent]
+/home/Waylake/Drawings/kei joins millennium/
+/home/Waylake/Blender/Assets/Font (removed overlapping)/
+/home/Waylake/Blender/Assets/HDRIs/
+/usr/share/fonts/TTF/
+/home/Waylake/Blender/projects/lost faith/
+/usr/share/fonts/gsfonts/
+/home/Waylake/Blender/projects/sakura rain/
+!Home
+/home/Waylake/
+/home/Waylake/Blender/projects/track test/
 /home/Waylake/.config/kitty/
-/home/Waylake/lmms/projects/cdnm lost/
-/home/Waylake/Blender/projects/astraea/
-/home/Waylake/Blender/projects/astraea/vis/
-/home/Waylake/Blender/projects/astraea/jacket/
-/home/Waylake/Blender/blender tmp/
-/home/Waylake/.local/share/lakeside-rice-loader/rice-sets/HyprArchive/.config/eww/assets/
-/home/Waylake/.local/share/lakeside-rice-loader/rice-sets/HyprArchive/sources/light or conf/
-/home/Waylake/Blender/projects/ovl comp/
-/home/Waylake/Blender/projects/be a girl/vid2/

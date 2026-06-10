@@ -9,7 +9,7 @@ local lockscreen   = "hyprlock -c ~/.config/hypr/hyprlock.conf"
 local menu   = "walker --provider desktopapplications --hideqa --theme hyarc-app"
 local pmenu  = "walker --provider menus:lake-personal-menu --hideqa -N --theme hyarc-menu"
 
-local shutdown_menu = "walker --provider menus:hyarc-power-menu --hideqa -N -n --minheight 315 --maxheight 315 --minwidth 240 --maxwidth 240 --theme hyarc-power"
+local shutdown_menu = "walker --provider menus:hyarc-power-menu --hideqa -N -n --minheight 315 --minwidth 240 --maxwidth 240 --theme hyarc-power"
 
 
 --------------------

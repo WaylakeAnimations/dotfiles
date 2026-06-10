@@ -1,7 +1,7 @@
 require("visuals")
 require("animations")
 require("autostarts")
-require("darkwindow")
+require("transparency-basic")
 require("apps-and-keybinds")
 require("monitor-and-env")
 require("thunar")

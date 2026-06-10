@@ -1,3 +1,7 @@
+/home/Waylake/Drawings/kei joins millennium/kei.blend
+/home/Waylake/Blender/projects/lost faith/lost faith.blend
+/home/Waylake/Blender/projects/sakura rain/sr.blend
+/home/Waylake/Blender/projects/track test/track test.blend
 /home/Waylake/.config/kitty/bg.blend
 /home/Waylake/Blender/projects/astraea/vis.blend
 /home/Waylake/Blender/projects/astraea/cover.blend
@@ -14,7 +18,3 @@
 /home/Waylake/Drawings/gail/pose ref.blend
 /home/Waylake/Blender/projects/aris collab/aris collab.blend
 /home/Waylake/Blender/projects/hec/hec.blend
-/home/Waylake/Blender/projects/knee touching/knee touching.blend
-/home/Waylake/Blender/projects/dance/dance.blend
-/home/Waylake/Blender/projects/skin showcase/skin showcase1.blend
-/home/Waylake/Blender/projects/skin showcase/skin showcase.blend
