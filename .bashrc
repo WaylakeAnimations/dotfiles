@@ -154,7 +154,11 @@ alias grep='grep --color=auto'
 alias fh='clear ; fastfetch -c ~/.config/fastfetch/config-lite.jsonc'
 
 alias pacs='sudo pacman -S'
+<<<<<<< HEAD
 alias pacu='sudo pacman -U'
+=======
+alias pacu='sudo pacman -Syu'
+>>>>>>> f7c4a20 (tweak .bashrc)
 alias pacr='sudo pacman -R'
 alias pacq='pacman -Q'
 
