@@ -46,11 +46,11 @@ DISABLE_AUTO_UPDATE="true"
 # Uncomment the following line if you want to disable marking untracked files
 # under VCS as dirty. This makes repository status check for large repositories
 # much, much faster.
-# DISABLE_UNTRACKED_FILES_DIRTY="true"
+DISABLE_UNTRACKED_FILES_DIRTY="true"
 
 # Uncomment the following line if you don't want the repository to be considered dirty
 # if there are untracked files.
-# SCM_GIT_DISABLE_UNTRACKED_DIRTY="true"
+SCM_GIT_DISABLE_UNTRACKED_DIRTY="true"
 
 # Uncomment the following line if you want to completely ignore the presence
 # of untracked files in the repository.
@@ -89,8 +89,6 @@ OMB_USE_SUDO=true
 # Add wisely, as too many completions slow down shell startup.
 completions=(
   git
-  composer
-  ssh
 )
 
 # Which aliases would you like to load? (aliases can be found in ~/.oh-my-bash/aliases/*)
@@ -107,7 +105,6 @@ aliases=(
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
   git
-  bashmarks
 )
 
 # Which plugins would you like to conditionally load? (plugins can be found in ~/.oh-my-bash/plugins/*)
@@ -147,22 +144,19 @@ source "$OSH"/oh-my-bash.sh
 # alias bashconfig="mate ~/.bashrc"
 # alias ohmybash="mate ~/.oh-my-bash"
 
+export EDITOR='nano'
+
+# Created by `pipx` on 2026-04-16 07:58:11
+export PATH="$PATH:$HOME/.local/bin"
+
 alias ls='ls --color=auto'
 alias grep='grep --color=auto'
 alias fh='clear ; fastfetch -c ~/.config/fastfetch/config-lite.jsonc'
 
-# Created by `pipx` on 2026-04-16 07:58:11
-export PATH="$PATH:/home/Waylake/.local/bin"
-export EDITOR='nano'
+alias pacs='sudo pacman -S'
+alias pacu='sudo pacman -U'
+alias pacr='sudo pacman -R'
+alias pacq='pacman -Q'
 
-# alias pacman='time pacman'
-# alias yay='time yay'
+alias dotf='cd ~/dotfiles ; git status'
 
-
-# BEGIN opam configuration
-# This is useful if you're using opam as it adds:
-#   - the correct directories to the PATH
-#   - auto-completion for the opam binary
-# This section can be safely removed at any time if needed.
-test -r '/home/Waylake/.opam/opam-init/init.sh' && . '/home/Waylake/.opam/opam-init/init.sh' > /dev/null 2> /dev/null || true
-# END opam configuration
