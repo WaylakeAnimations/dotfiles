@@ -2,7 +2,7 @@
 ----- Set programs -----
 ------------------------
 
-local terminal     = "kitty"
+local terminal     = "kitty -1"
 local fileManager  = "thunar"
 local lockscreen   = "hyprlock -c ~/.config/hypr/hyprlock.conf"
 

@@ -13,7 +13,22 @@
 .config/elephant/elephant.toml
 .config/fastfetch
 .config/htop
-.config/hypr
+.config/hypr/animations.lua
+.config/hypr/apps-and-keybinds.lua
+.config/hypr/autostarts.lua
+.config/hypr/hyprland.lua
+.config/hypr/misc.lua
+.config/hypr/monitor-and-env.lua
+.config/hypr/rules.lua
+.config/hypr/thunar.lua
+// .config/hypr/transparency.lua
+// .config/hypr/transparency-basic.lua
+.config/hypr/visuals.lua
+.config/hypr/hyprlock.conf
+.config/hypr/hyprlock-entry.conf
+.config/hypr/hyprpaper.conf
+.config/hypr/get-gtk-bg-color.sh
+.config/hypr/wldwr.sh
 .config/kitty
 .config/kmonad
 .config/swaync
@@ -31,3 +46,4 @@ Wallpapers
 .bash_logout
 .bash_profile
 .bashrc
+.config/gtk-3.0/gtk.css
