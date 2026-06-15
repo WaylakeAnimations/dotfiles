@@ -16,6 +16,7 @@ blender
 blueman
 bluez
 bluez-utils
+brightnessctl
 btop
 cage
 carla
@@ -35,13 +36,13 @@ efibootmgr
 engrampa
 eog
 ethtool
+falkon
 fastfetch
 flatpak
 font-manager
 fontforge
 gamemode
 gammastep
-gcolor3
 gdb
 gimp
 git
@@ -76,7 +77,6 @@ hyprwayland-scanner
 imagemagick
 inkscape
 inotify-tools
-isoimagewriter
 iw
 jre-openjdk
 jre8-openjdk
@@ -98,6 +98,7 @@ linux-lts
 linux-zen
 linux-zen-headers
 lldb-mi
+ly
 lynx
 marked
 mousepad
@@ -113,14 +114,12 @@ noto-fonts
 noto-fonts-cjk
 noto-fonts-emoji
 nwg-look
-obs-studio
 otf-font-awesome
 papirus-icon-theme
 pavucontrol
 piper
 pipewire-pulse
 plasma-desktop
-plasma-login-manager
 plymouth
 polkit-gnome
 progress
@@ -178,7 +177,6 @@ qt6-websockets
 qt6-webview
 qt6ct
 rclone
-recordmydesktop
 redshift
 reflector
 resources
@@ -195,7 +193,6 @@ socat
 sox
 strace
 sudo
-sway
 swaync
 sysfsutils
 syslinux

@@ -7,7 +7,6 @@ eww
 grimshot
 icat
 localsend-bin
-mpvpaper
 obsidian-bin
 playerctld-systemd-unit
 ttf-ms-fonts
