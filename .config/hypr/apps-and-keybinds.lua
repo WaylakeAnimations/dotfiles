@@ -11,6 +11,10 @@ local pmenu  = "walker --provider menus:lake-personal-menu --hideqa -N --theme h
 
 local shutdown_menu = "walker --provider menus:hyarc-power-menu --hideqa -N -n --minheight 315 --minwidth 240 --maxwidth 240 --theme hyarc-power"
 
+local screenshot_name = "\"$(date +$(echo ~)/Screenshots/Screenshot_%Y-%m-%d_%H-%M-%S.png)\""
+
+local screenshot           = "grimshot --cursor --notify save screen " .. screenshot_name
+local screenshot_localsend = "FILENAME=" .. screenshot_name .. " ; grimshot --cursor --notify save screen $FILENAME && localsend $FILENAME"
 
 --------------------
 ----- Keybinds -----
@@ -32,7 +36,8 @@ hl.bind(mainMod .. " + F",             hl.dsp.window.fullscreen({ action = "togg
 hl.bind(mainMod .. " + Q", hl.dsp.window.close())
 hl.bind(mainMod .. " + SHIFT + E", hl.dsp.exec_cmd(shutdown_menu))
 
-hl.bind(mainMod .. " + P", hl.dsp.exec_cmd("grimshot --cursor --notify save screen $(date +$(echo ~)/Screenshots/Screenshot_%Y-%m-%d_%H-%M-%S.png)"))
+hl.bind(mainMod .. " + P",         hl.dsp.exec_cmd(screenshot))
+hl.bind(mainMod .. " + SHIFT + P", hl.dsp.exec_cmd(screenshot_localsend))
 -- "the minute spot used to be taken by month number, but i fixed it now" - wl, 2026
 
 -- Move window --

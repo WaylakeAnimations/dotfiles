@@ -12,7 +12,7 @@
 .config/elephant/desktopapplications.toml
 .config/elephant/elephant.toml
 .config/fastfetch
-.config/htop
+.config/htop/htoprc
 .config/hypr/animations.lua
 .config/hypr/apps-and-keybinds.lua
 .config/hypr/autostarts.lua
