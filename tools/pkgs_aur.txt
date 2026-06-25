@@ -5,12 +5,10 @@ elephant-desktopapplications
 elephant-menus
 eww
 grimshot
-icat
 localsend-bin
 obsidian-bin
 playerctld-systemd-unit
 ttf-ms-fonts
-udis86
 walker-bin
 waterfox-bin
 xp-pen-tablet

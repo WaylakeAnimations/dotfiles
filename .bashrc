@@ -160,6 +160,7 @@ alias pacu='sudo pacman -Syu'
 alias pacr='sudo pacman -R'
 alias pacq='pacman -Q'
 alias pacg='pacman -Q | grep'
+alias pacrorp='sudo pacman -R $(pacman -Qqtd)'
 
 alias yas='yay -S'
 alias yar='yay -R'
